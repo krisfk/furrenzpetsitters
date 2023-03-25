@@ -97,3 +97,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 
 /* Categories 01 to 03 are the basics. */
+
+.mbl-sc li {
+    width: auto;
+    text-align: center;
+    padding: 5px;
+    margin-right: -3px;
+    border-right: 1px solid #fff;
+}
