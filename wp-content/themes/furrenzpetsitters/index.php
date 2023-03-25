@@ -2102,7 +2102,7 @@
         <script type="text/javascript" src="SJ/js/lightgallery.js"></script>
         <script type="text/javascript" src="SJ/js/jquery.nicescroll.js"></script>
         <script type="text/javascript" src="SJ/js/jquery.mousewheel.min.js"></script>
-        <!-- <script type="text/javascript" src="SJ/js/custom.js"></script> -->
+        <script type="text/javascript" src="SJ/js/custom.js"></script>
 
         <?php
 
