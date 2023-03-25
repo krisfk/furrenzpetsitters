@@ -18,9 +18,11 @@
 
 <?php //get_template_part( 'template-parts/footer/footer-widgets' ); ?>
 
-<footer id="colophon" class="site-footer">
+<!-- <footer id="colophon" class="site-footer">
 
-</footer><!-- #colophon -->
+</footer> -->
+
+<!-- #colophon -->
 
 </div><!-- #page -->
 
