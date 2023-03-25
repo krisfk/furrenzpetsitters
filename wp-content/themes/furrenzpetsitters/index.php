@@ -2096,13 +2096,13 @@
             window.location.href = "mailto:info@furrenzpetsitters.com";
         }
         </script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script type="text/javascript" src="SJ/js/jquery.js"></script>
         <script type="text/javascript" src="SJ/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="SJ/js/lightgallery.js"></script>
         <script type="text/javascript" src="SJ/js/jquery.nicescroll.js"></script>
         <script type="text/javascript" src="SJ/js/jquery.mousewheel.min.js"></script>
-        <script type="text/javascript" src="SJ/js/custom.js"></script>
+        <script type="text/javascript" src="SJ/js/custom.js"></script> -->
 
         <?php
 
