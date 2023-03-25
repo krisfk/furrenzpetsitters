@@ -1997,7 +1997,7 @@
                 </div>
                 <div class="process"><span><img src='SJ/img/loading.gif'><BR><BR>Data Processing</img></span></div>
             </section>
-            <section id="footer-section" class="footer-section post">
+            <!-- <section id="footer-section" class="footer-section post">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -2008,7 +2008,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
         </div>
         <div id="modal-13" class="modal fade modal-youtube" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
