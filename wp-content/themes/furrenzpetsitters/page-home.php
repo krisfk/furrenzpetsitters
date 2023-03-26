@@ -59,7 +59,7 @@
                                 <div class="top-head">
                                     <div class="logo">
                                         <a href="#"><img class="img-responsive"
-                                                src="<?php //echo wp_get_attachment_image_src(get_field('main_logo'),'full')[0];?>"
+                                                src="<?php echo wp_get_attachment_image_src(get_field('main_logo'),'full')[0];?>"
                                                 alt="" /></a>
                                     </div>
                                     <div class="text-box">
