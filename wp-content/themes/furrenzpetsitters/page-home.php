@@ -1506,18 +1506,45 @@ if( have_rows('gallery_section_images') )
                     <div class="row">
                         <div class="col-md-12">
                             <div class="testimonial-inner">
-                                <h2>testimonials</h2>
+                                <h2>
+                                    <?php echo get_field('testimonials_section_title');?>
+                                    <!-- testimonials -->
+                                </h2>
                                 <div class="testimonial-column">
+
+                                    <?php
+                                
+                                if( have_rows('testimonials_section_customers') )
+                                {
+                                    // Loop through rows.
+                                    while( have_rows('testimonials_section_customers') ) 
+                                    {
+                                        the_row();
+                                        ?>
+
+
                                     <div class='testimonial-box'>
-                                        <p>We used Furrenz pet sitters service while we were away on our business trip
-                                            for
-                                            24 days. We were very happy with her professionalism and care, detail update
-                                            everyday with photos/ video. Our cats look great with no stressed when we
-                                            back
-                                            home. I recommend Furrenz Pet sitters to anyone in need! </p>
-                                        <h4>Yumi</h4>
+                                        <p>
+                                            <?php
+                                            echo get_sub_field('customer_saying');
+                                            ?>
+                                        </p>
+                                        <h4>
+                                            <?php
+                                            echo get_sub_field('customer_name');
+                                            ?></h4>
                                     </div>
-                                    <div class='testimonial-box'>
+
+                                    <?php
+                                    }
+                                }
+                                
+                                ?>
+
+
+
+
+                                    <!-- <div class='testimonial-box'>
                                         <p>We felt our two bunnies were in professional and caring hands during our
                                             holiday.
                                             The updates and pictures made us happy every evening. It will be easy to
@@ -1662,7 +1689,7 @@ if( have_rows('gallery_section_images') )
                                             do is really great. So, thank you : )”
                                         </p>
                                         <h4>Dominique</h4>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="next-button">
                                     <a class="scrol" href="#contact-section">Next<i class="fa fa-caret-down"></i></a>
