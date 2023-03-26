@@ -117,3 +117,13 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   padding-left: 5px;
   width: 100%;
 }
+
+.wpcf7 form.sent .wpcf7-response-output {
+  border-color: transparent !important;
+  position: relative !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  font-size: 2rem !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
