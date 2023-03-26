@@ -458,7 +458,7 @@
                         <div class="col-md-12">
                             <div class="media-sec-inner">
                                 <h2><?php echo get_field('media_section_title');?></h2>
-                                <div class="media-video">
+                                <div class="media-vedio">
                                     <div class="media-vedio-inner">
                                         <div class="row no-marrgin">
 
