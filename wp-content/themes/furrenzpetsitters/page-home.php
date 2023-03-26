@@ -11,6 +11,9 @@
  * @since Twenty Twenty-One 1.0
  */
 $curr_lang_flag = ICL_LANGUAGE_CODE;
+
+$next_page_txt = $curr_lang_flag =='en' ? 'next page':'下一頁';
+
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?> <?php twentytwentyone_the_html_classes(); ?>>
@@ -467,7 +470,8 @@ $curr_lang_flag = ICL_LANGUAGE_CODE;
                                 </div>
                             </div>
                             <div class="next-button">
-                                <a class="scrol" href="#media-section">Next<i class="fa fa-caret-down"></i></a>
+                                <a class="scrol" href="#media-section"><?php echo $next_page_txt;?><i
+                                        class="fa fa-caret-down"></i></a>
                             </div>
                         </div>
                     </div>
@@ -603,7 +607,8 @@ $curr_lang_flag = ICL_LANGUAGE_CODE;
                                     </div>
                                 </div>
                                 <div class="next-button">
-                                    <a class="scrol" href="#gallry-section">Next<i class="fa fa-caret-down"></i></a>
+                                    <a class="scrol" href="#gallry-section"><?php echo $next_page_txt;?><i
+                                            class="fa fa-caret-down"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -715,7 +720,7 @@ if( have_rows('gallery_section_images') )
                                     </div>
                                 </div>
                                 <div class="next-button">
-                                    <a class="scrol" href="#cat-sitting-section">Next<i
+                                    <a class="scrol" href="#cat-sitting-section"><?php echo $next_page_txt;?><i
                                             class="fa fa-caret-down"></i></a>
                                 </div>
                             </div>
@@ -791,7 +796,7 @@ if( have_rows('gallery_section_images') )
 
                                     </div>
                                     <div class="next-button">
-                                        <a class="scrol" href="#dog-walking-section">Next<i
+                                        <a class="scrol" href="#dog-walking-section"><?php echo $next_page_txt;?><i
                                                 class="fa fa-caret-down"></i></a>
                                     </div>
                                 </div>
@@ -869,7 +874,7 @@ if( have_rows('gallery_section_images') )
                                         </p> -->
                                     </div>
                                     <div class="next-button">
-                                        <a class="scrol" href="#overnight-pet-section">Next<i
+                                        <a class="scrol" href="#overnight-pet-section"><?php echo $next_page_txt;?><i
                                                 class="fa fa-caret-down"></i></a>
                                     </div>
                                 </div>
@@ -947,7 +952,7 @@ if( have_rows('gallery_section_images') )
                                             </p> -->
                                         </div>
                                         <div class="next-button">
-                                            <a class="scrol" href="#small-animal-section">Next<i
+                                            <a class="scrol" href="#small-animal-section"><?php echo $next_page_txt;?><i
                                                     class="fa fa-caret-down"></i></a>
                                         </div>
                                     </div>
@@ -991,7 +996,7 @@ if( have_rows('gallery_section_images') )
                                         </p>
                                     </div>
                                     <div class="next-button">
-                                        <a class="scrol" href="#small-animal-section">Next<i
+                                        <a class="scrol" href="#small-animal-section"><?php echo $next_page_txt;?><i
                                                 class="fa fa-caret-down"></i></a>
                                     </div>
                                 </div>
@@ -1063,7 +1068,7 @@ if( have_rows('gallery_section_images') )
                                             </p> -->
                                         </div>
                                         <div class="next-button">
-                                            <a class="scrol" href="#faq-section">Next<i
+                                            <a class="scrol" href="#faq-section"><?php echo $next_page_txt;?><i
                                                     class="fa fa-caret-down"></i></a>
                                         </div>
                                     </div>
@@ -1383,7 +1388,7 @@ if( have_rows('gallery_section_images') )
                                         </div>
                                     </div>
                                     <div class="next-button">
-                                        <a class="scrol" href="#partnership-section">Next<i
+                                        <a class="scrol" href="#partnership-section"><?php echo $next_page_txt;?><i
                                                 class="fa fa-caret-down"></i></a>
                                     </div>
                                 </div>
@@ -1515,7 +1520,7 @@ if( have_rows('gallery_section_images') )
                                     </div>
                                 </div>
                                 <div class="next-button">
-                                    <a class="scrol" href="#testimonial-section">Next<i
+                                    <a class="scrol" href="#testimonial-section"><?php echo $next_page_txt;?><i
                                             class="fa fa-caret-down"></i></a>
                                 </div>
                             </div>
@@ -1714,7 +1719,8 @@ if( have_rows('gallery_section_images') )
                                     </div> -->
                                 </div>
                                 <div class="next-button">
-                                    <a class="scrol" href="#contact-section">Next<i class="fa fa-caret-down"></i></a>
+                                    <a class="scrol" href="#contact-section"><?php echo $next_page_txt;?><i
+                                            class="fa fa-caret-down"></i></a>
                                 </div>
                             </div>
                         </div>
