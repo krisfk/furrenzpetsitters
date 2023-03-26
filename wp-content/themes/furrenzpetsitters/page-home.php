@@ -73,11 +73,14 @@
                                 </div>
                                 <div class="mid-head">
                                     <div class="image-holder">
-                                        <img class="img-responsive" src="SJ/images/top_animalsV3.png" alt="" />
+                                        <img class="img-responsive"
+                                            src="<?php echo wp_get_attachment_image_src(get_field('first_section_img'),'full')[0];?>"
+                                            alt="" />
                                         <div class="so-lang">
                                             <div id="s0-lang"><span>中文</span></div>
                                             <a class="scrol" href="#about-section"> <img
-                                                    src="SJ/images/btn_scorlldown_en.gif" alt=""></a>
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('first_section_scroll_down_img'),'full')[0];?>"
+                                                    alt=""></a>
                                         </div>
                                     </div>
                                 </div>
