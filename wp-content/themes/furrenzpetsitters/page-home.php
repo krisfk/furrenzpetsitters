@@ -457,10 +457,11 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="media-sec-inner">
-                                <h2>Media</h2>
-                                <div class="media-vedio">
+                                <h2><?php echo get_field('media_section_title');?></h2>
+                                <div class="media-video">
                                     <div class="media-vedio-inner">
                                         <div class="row no-marrgin">
+
                                             <div class="col-md-6 col-sm-6 col-xs-6">
                                                 <a href="#" data-toggle="modal" data-target="#modal-13"><img
                                                         class="img-responsive"
