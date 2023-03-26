@@ -58,7 +58,9 @@
                             <div class="col-md-12">
                                 <div class="top-head">
                                     <div class="logo">
-                                        <a href="#"><img class="img-responsive" src="SJ/images/logo.jpg" alt="" /></a>
+                                        <a href="#"><img class="img-responsive"
+                                                src="<?php echo wp_get_attachment_image_src(get_field('main_logo'),'full')[0];?>"
+                                                alt="" /></a>
                                     </div>
                                     <div class="text-box">
 
