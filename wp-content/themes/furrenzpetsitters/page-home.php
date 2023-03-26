@@ -223,8 +223,12 @@
                                                 </button>
                                             </div>
                                             <div id="menu" class="navbar-collapse collapse">
-                                                999999
-                                                <?php echo get_the_content(263);?>
+                                                <!-- 999999 -->
+                                                <?php 
+                                                //echo get_the_content(263);
+                                                echo get_post_field('post_content', 263);
+
+                                                ?>
                                                 <!-- <ul class="nav navbar-nav">
                                                     <li><a class="scrol menu-en" href="#about-section">ABOUT US</a>
                                                         <font class="slipe">/</font>
