@@ -462,24 +462,51 @@
                                     <div class="media-vedio-inner">
                                         <div class="row no-marrgin">
 
+
+                                            <?php
+                                        
+                                        $v_idx=1;
+                                        if( have_rows('media_section_videos') )
+                                        {
+                                            // Loop through rows.
+                                            while( have_rows('media_section_videos') ) 
+                                            {
+                                                the_row();
+
+                                                ?>
+
+
                                             <div class="col-md-6 col-sm-6 col-xs-6">
-                                                <a href="#" data-toggle="modal" data-target="#modal-1"><img
+                                                <a href="#" data-toggle="modal"
+                                                    data-target="#modal-<?php echo $v_idx;?>"><img
                                                         class="img-responsive"
-                                                        src="http://img.youtube.com/vi/UF-wqhUCGMk/0.jpg" alt="" /></a>
+                                                        src="<?php echo wp_get_attachment_image_src(get_sub_field('video_thumbnail'),'full')[0];?>"
+                                                        alt="" /></a>
                                             </div>
 
-                                            <div id="modal-1" class="modal fade modal-youtube" tabindex="-1"
-                                                role="dialog">
+                                            <div id="modal-<?php echo $v_idx;?>" class="modal fade modal-youtube"
+                                                tabindex="-1" role="dialog">
                                                 <div class="modal-dialog modal-lg" role="document">
                                                     <div class="modal-content">
                                                         <div class="embed-responsive embed-responsive-16by9">
                                                             <iframe class="embed-responsive-item"
-                                                                src="https://www.youtube.com/embed/UF-wqhUCGMk"
+                                                                src="<?php echo wp_get_attachment_image_src(get_sub_field('video_url'),'full')[0];?>"
                                                                 frameborder="0" allowfullscreen></iframe>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <?php
+                                                $v_idx++;
+                                            }
+                                        }
+
+                                        ?>
+
+
+
+
                                             <!-- <div id="modal-14" class="modal fade modal-youtube" tabindex="-1"
                                                 role="dialog">
                                                 <div class="modal-dialog modal-lg" role="document">
