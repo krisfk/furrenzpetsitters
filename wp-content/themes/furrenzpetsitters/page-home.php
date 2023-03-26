@@ -1058,11 +1058,35 @@ if( have_rows('gallery_section_images') )
                         <div class="col-md-12">
                             <div class="faq-inner">
                                 <div class="faq-colum">
-                                    <h2>faq</h2>
+                                    <h2>
+                                        <?php echo get_field('faq_section_title');?>
+                                        <!-- faq -->
+
+                                    </h2>
                                     <div class="faq-colum-question">
                                         <div class="faq-colum-question-inner">
                                             <ul>
-                                                <li id='id1'><a href='javascript:void(0);'>So how does Pet Sitting
+                                                <?php
+                                                
+                                                $q_idx=1;
+                                                if( have_rows('faq_section_content') )
+                                                {
+                                                    // Loop through rows.
+                                                    while( have_rows('faq_section_content') ) 
+                                                    {
+                                                        the_row();
+                                                    ?>
+
+                                                <li id='id<?php echo  $q_idx;?>'><a href='javascript:void(0);'>
+                                                        <?php echo get_sub_field('question');?></a></li>
+                                                <?php
+                                                        $q_idx++;
+
+                                                    }
+                                                }
+
+                                                ?>
+                                                <!-- <li id='id1'><a href='javascript:void(0);'>So how does Pet Sitting
                                                         work?</a></li>
                                                 <li id='id2'><a href='javascript:void(0);'>How do I know for sure that
                                                         my pet will be ok
@@ -1089,46 +1113,48 @@ if( have_rows('gallery_section_images') )
                                                         service due to
                                                         change
                                                         of plans?</a></li>
-                                                <li id='id10'><a href='javascript:void(0);'>How do I pay?</a></li>
+                                                <li id='id10'><a href='javascript:void(0);'>How do I pay?</a></li> -->
 
                                             </ul>
                                         </div>
                                         <div class="faq-colum-ans-main">
-                                            <div id='ans1' class='ans'>
+
+                                            <?php
+                                                
+                                                $q_idx=1;
+                                                if( have_rows('faq_section_content') )
+                                                {
+                                                    // Loop through rows.
+                                                    while( have_rows('faq_section_content') ) 
+                                                    {
+                                                        the_row();
+                                                    ?>
+
+                                            <div id='ans<?php echo $q_idx;?>' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
                                                         href='javascript:void(0);'><img src='SJ/images/close-icon.png'
                                                             alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
-                                                        <h4>So how does Pet Sitting work?</h4>
+                                                        <h4> <?php echo get_sub_field('question');?></h4>
                                                     </div>
                                                     <div class='faq-answer-innner'>
-                                                        <p>While you are away on vacation or business trips, your
-                                                            assigned
-                                                            Pet Sitter (aka Pet Nanny) will come to your home to take
-                                                            care
-                                                            of your beloved little ones in the comfort of their own
-                                                            home. We
-                                                            ensure their basic needs such as water, food, and bathroom
-                                                            cleanliness are met, and we provide them with any medical
-                                                            treatment or special care they need. The Dog Sitter or Cat
-                                                            Sitter also provide them with lots of human interaction to
-                                                            help
-                                                            them feel less lonely, provide playtime to stimulate them,
-                                                            and
-                                                            just to be there to provide lots of TLC (Tender Loving
-                                                            Care).
-                                                            Our Pet Sitters / Dog Walkers are professionally trained,
-                                                            certified in pet first aid, and are truly passionate about
-                                                            caring for animals. We want to ensure that you can enjoy
-                                                            your
-                                                            time away and know that your precious little ones are in
-                                                            good
-                                                            hands.</p>
+                                                        <p>
+                                                            <?php echo get_sub_field('answer');?>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div id='ans2' class='ans'>
+                                            <?php
+                                                        $q_idx++;
+
+                                                    }
+                                                }
+
+                                                ?>
+
+
+                                            <!-- <div id='ans2' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
                                                         href='javascript:void(0);'><img src='SJ/images/close-icon.png'
                                                             alt='' /></a></div>
@@ -1331,7 +1357,7 @@ if( have_rows('gallery_section_images') )
                                                             services</p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <div class="next-button">
