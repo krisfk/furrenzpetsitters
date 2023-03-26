@@ -223,7 +223,9 @@
                                                 </button>
                                             </div>
                                             <div id="menu" class="navbar-collapse collapse">
-                                                <ul class="nav navbar-nav">
+
+                                                <?php echo get_the_content(263);?>
+                                                <!-- <ul class="nav navbar-nav">
                                                     <li><a class="scrol menu-en" href="#about-section">ABOUT US</a>
                                                         <font class="slipe">/</font>
                                                     </li>
@@ -237,10 +239,6 @@
                                                         <font class="slipe">/</font>
                                                     </li>
 
-                                                    <!-- <li><a class="scrol menu-en" href="#beauty-pet-section">Pet
-                                                            Grooming</a>
-                                                        <font class="slipe">/</font>
-                                                    </li> -->
 
                                                     <li><a class="scrol menu-en" href="#faq-section">FAQ</a>
                                                         <font class="slipe">/</font>
@@ -256,7 +254,7 @@
                                                     </li>
                                                     <li><a class="scrol menu-en" href="#contact-section">CONTACT</a>
                                                     </li>
-                                                </ul>
+                                                </ul> -->
                                             </div>
                                             <!--/.nav-collapse -->
                                         </div>
