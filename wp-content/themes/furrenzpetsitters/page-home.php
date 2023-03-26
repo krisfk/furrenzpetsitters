@@ -1768,6 +1768,8 @@ if( have_rows('gallery_section_images') )
                             </div>
                             <div class="contact-form">
                                 <div class="contact-form-inner">
+
+
                                     <h3>SEND US A MESSAGE</h3>
                                     <div class="theForm">
                                         <div class="row">
@@ -1909,6 +1911,17 @@ if( have_rows('gallery_section_images') )
                                             </div>
                                         </div>
                                     </div>
+
+
+
+
+
+                                    <?php
+
+
+                                    echo do_shortcode('[contact-form-7 id="251" title="Contact form 1"]');
+                                    ?>
+
                                 </div>
                             </div>
                         </div>
