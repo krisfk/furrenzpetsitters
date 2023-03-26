@@ -502,10 +502,15 @@ function twenty_twenty_one_skip_link_focus_fix() {
 	} else {
 		// The following is minified via `npx terser --compress --mangle -- assets/js/skip-link-focus-fix.js`.
 		?>
-		<script>
-		/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",(function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())}),!1);
-		</script>
-		<?php
+<script>
+/(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window
+    .addEventListener("hashchange", (function() {
+        var t, e = location.hash.substring(1);
+        /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i
+            .test(t.tagName) || (t.tabIndex = -1), t.focus())
+    }), !1);
+</script>
+<?php
 	}
 }
 add_action( 'wp_print_footer_scripts', 'twenty_twenty_one_skip_link_focus_fix' );
@@ -632,12 +637,12 @@ function twentytwentyone_the_html_classes() {
  */
 function twentytwentyone_add_ie_class() {
 	?>
-	<script>
-	if ( -1 !== navigator.userAgent.indexOf( 'MSIE' ) || -1 !== navigator.appVersion.indexOf( 'Trident/' ) ) {
-		document.body.classList.add( 'is-IE' );
-	}
-	</script>
-	<?php
+<script>
+if (-1 !== navigator.userAgent.indexOf('MSIE') || -1 !== navigator.appVersion.indexOf('Trident/')) {
+    document.body.classList.add('is-IE');
+}
+</script>
+<?php
 }
 add_action( 'wp_footer', 'twentytwentyone_add_ie_class' );
 
@@ -654,3 +659,38 @@ if ( ! function_exists( 'wp_get_list_item_separator' ) ) :
 		return __( ', ', 'twentytwentyone' );
 	}
 endif;
+
+
+function so48515097_cf7_select_values($tag)
+{
+    if ($tag['basetype'] != 'select') {
+        return $tag;
+    }
+
+    $values = [];
+    $labels = [];
+    foreach ($tag['raw_values'] as $raw_value) {
+        $raw_value_parts = explode('|', $raw_value);
+        if (count($raw_value_parts) >= 2) {
+            $values[] = $raw_value_parts[1];
+            $labels[] = $raw_value_parts[0];
+        } else {
+            $values[] = $raw_value;
+            $labels[] = $raw_value;
+        }
+    }
+    $tag['values'] = $values;
+    $tag['labels'] = $labels;
+
+    // Optional but recommended:
+    //    Display labels in mails instead of values
+    //    You can still use values using [_raw_tag] instead of [tag]
+    $reversed_raw_values = array_map(function ($raw_value) {
+        $raw_value_parts = explode('|', $raw_value);
+        return implode('|', array_reverse($raw_value_parts));
+    }, $tag['raw_values']);
+    $tag['pipes'] = new \WPCF7_Pipes($reversed_raw_values);
+
+    return $tag;
+}
+add_filter('wpcf7_form_tag', 'so48515097_cf7_select_values', 10);
