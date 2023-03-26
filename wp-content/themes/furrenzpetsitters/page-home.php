@@ -1767,10 +1767,10 @@ if( have_rows('gallery_section_images') )
                                 </div>
                             </div>
                             <div class="contact-form">
-                                <div class="contact-form-inner">
+                                <!-- <div class="contact-form-inner"> -->
 
 
-                                    <h3>SEND US A MESSAGE</h3>
+                                <!-- <h3>SEND US A MESSAGE</h3>
                                     <div class="theForm">
                                         <div class="row">
                                             <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
@@ -1910,19 +1910,19 @@ if( have_rows('gallery_section_images') )
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
 
 
 
 
-                                    <?php
+                                <?php
 
 
                                     echo do_shortcode('[contact-form-7 id="252" title="Contact form"]');
                                     ?>
 
-                                </div>
+                                <!-- </div> -->
                             </div>
                         </div>
                     </div>
