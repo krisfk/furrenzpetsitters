@@ -351,7 +351,7 @@
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="about-contant">
                                 <div class="hedding">
-                                    <h2>About us</h2>
+                                    <h2><?php echo get_field('about_us_section_title');?></h2>
                                 </div>
                                 <p class="desc">
                                     Furrenz Pet Sitters’ mission is to provide the Highest Quality Professional Pet Care
