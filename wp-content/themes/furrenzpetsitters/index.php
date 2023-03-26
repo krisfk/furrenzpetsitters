@@ -1129,7 +1129,7 @@
                                             </p>
                                         </div>
                                         <div class="next-button">
-                                            <a class="scrol" href="#beauty-pet-section">Next<i
+                                            <a class="scrol" href="#small-animal-section">Next<i
                                                     class="fa fa-caret-down"></i></a>
                                         </div>
                                     </div>
