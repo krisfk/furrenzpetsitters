@@ -19,16 +19,16 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <?php wp_head(); ?>
-    <link rel="stylesheet" type="text/css" href="SJ/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="SJ/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="SJ/css/lightgallery.css">
-    <link rel="stylesheet" type="text/css" href="SJ/css/build.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_site_url();?>/SJ/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_site_url();?>/SJ/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_site_url();?>/SJ/css/lightgallery.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_site_url();?>/SJ/css/build.css">
     <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="SJ/css/style.css?ver=">
-    <link rel="stylesheet" type="text/css" href="SJ/css/responsive.css?ver=1.1">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_site_url();?>/SJ/css/style.css?ver=">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_site_url();?>/SJ/css/responsive.css?ver=1.1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="SJ/img/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_site_url();?>/SJ/img/favicon.ico" />
     <link rel="canonical" href="http://www.furrenzpetsitters.com/" />
 
 </head>
@@ -109,19 +109,19 @@
                                         }
                                         ?>
                                             <!-- <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_141100.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_141100.jpg' alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_141106.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_141106.jpg' alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_141114.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_141114.jpg' alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_141120.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_141120.jpg' alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_142548.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_142548.jpg' alt="" /></a>
                                             </li> -->
                                         </ul>
                                     </div>
@@ -129,46 +129,60 @@
                                         <p><?php echo get_field('first_section_text_2');?></p>
                                         <ul>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172754.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172754.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172758.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172758.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172806.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172806.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172813.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172813.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172837.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172837.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172854.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172854.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172857.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172857.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172901.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172901.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172905.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172905.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172912.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172912.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172923.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172923.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172929.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172929.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172935.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172935.jpg'
+                                                        alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
-                                                        src='SJ/upl/gallery/large/20170610_172941.jpg' alt="" /></a>
+                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172941.jpg'
+                                                        alt="" /></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -180,15 +194,15 @@
                         <ul>
                             <li><a class="social"
                                     href="https://www.facebook.com/pages/Furrenz-Pet-Sitters/540414256013274"><img
-                                        src="SJ/img/icon_fb.png" alt="" /></a></li>
+                                        src="<?php echo get_site_url();?>/SJ/img/icon_fb.png" alt="" /></a></li>
                             <li><a class="social" href="https://plus.google.com/108119820827891516205"><img
-                                        src="SJ/img/icon_gp.png" alt="" /></a></li>
+                                        src="<?php echo get_site_url();?>/SJ/img/icon_gp.png" alt="" /></a></li>
                             <li><a class="social" href="http://www.instagram.com/furrenz"><img
-                                        src="SJ/img/icon_instagram.png" alt="" /></a></li>
+                                        src="<?php echo get_site_url();?>/SJ/img/icon_instagram.png" alt="" /></a></li>
                             <li><a class="social" href="http://www.youtube.com/user/FurrenzPetSitters"><img
-                                        src="SJ/img/icon_yt.png" alt="" /></a></li>
+                                        src="<?php echo get_site_url();?>/SJ/img/icon_yt.png" alt="" /></a></li>
                             <li><a class="social" href="https://twitter.com/FurrenzPetSitHK"><img
-                                        src="SJ/img/icon_tw.png" alt="" /></a></li>
+                                        src="<?php echo get_site_url();?>/SJ/img/icon_tw.png" alt="" /></a></li>
                         </ul>
                     </div>
                 </div>
@@ -251,7 +265,7 @@
                                 </div>
                             </div>
                             <div id="lang" class="change-language" lang="en">
-                                <a href="#"><img src="SJ/img/lang_en.png" alt="" /></a>
+                                <a href="#"><img src="<?php echo get_site_url();?>/SJ/img/lang_en.png" alt="" /></a>
                             </div>
                         </div>
                     </div>
@@ -309,20 +323,25 @@
                                                         <ul class="list-inline mbl-sc">
                                                             <li><a class="social"
                                                                     href="https://www.facebook.com/pages/Furrenz-Pet-Sitters/540414256013274"><img
-                                                                        src="SJ/img/icon_fb.png" alt="" /></a></li>
+                                                                        src="<?php echo get_site_url();?>/SJ/img/icon_fb.png"
+                                                                        alt="" /></a></li>
                                                             <li><a class="social"
                                                                     href="https://plus.google.com/108119820827891516205"><img
-                                                                        src="SJ/img/icon_gp.png" alt="" /></a></li>
+                                                                        src="<?php echo get_site_url();?>/SJ/img/icon_gp.png"
+                                                                        alt="" /></a></li>
                                                             <li><a class="social"
                                                                     href="http://www.instagram.com/furrenz"><img
-                                                                        src="SJ/img/icon_instagram.png" alt="" /></a>
+                                                                        src="<?php echo get_site_url();?>/SJ/img/icon_instagram.png"
+                                                                        alt="" /></a>
                                                             </li>
                                                             <li><a class="social"
                                                                     href="http://www.youtube.com/user/FurrenzPetSitters"><img
-                                                                        src="SJ/img/icon_yt.png" alt="" /></a></li>
+                                                                        src="<?php echo get_site_url();?>/SJ/img/icon_yt.png"
+                                                                        alt="" /></a></li>
                                                             <li><a class="social"
                                                                     href="https://twitter.com/FurrenzPetSitHK"><img
-                                                                        src="SJ/img/icon_tw.png" alt="" /></a></li>
+                                                                        src="<?php echo get_site_url();?>/SJ/img/icon_tw.png"
+                                                                        alt="" /></a></li>
                                                         </ul>
                                                     </li>
                                                 </ul>
@@ -334,7 +353,7 @@
                                 </div>
                             </div>
                             <div id="lang-mobile" class="change-language" lang="en">
-                                <a href="#"><img src="SJ/img/lang_en.png" alt="" /></a>
+                                <a href="#"><img src="<?php echo get_site_url();?>/SJ/img/lang_en.png" alt="" /></a>
                             </div>
                         </div>
                     </div>
@@ -624,70 +643,70 @@ if( have_rows('gallery_section_images') )
 
 
                                                 <!-- <div class='col-md-4 col-sm-4 col-xs-6'
-                                                    data-responsive='SJ/upl/gallery/large/20180426_230940.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180426_230940.jpg'><a
+                                                    data-responsive='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230940.jpg 800'
+                                                    data-src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230940.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
-                                                            src='SJ/upl/gallery/large/20180426_230940.jpg' alt='' /></a>
+                                                            src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230940.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
-                                                    data-responsive='SJ/upl/gallery/large/20180426_230928.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180426_230928.jpg'><a
+                                                    data-responsive='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230928.jpg 800'
+                                                    data-src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230928.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
-                                                            src='SJ/upl/gallery/large/20180426_230928.jpg' alt='' /></a>
+                                                            src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230928.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
-                                                    data-responsive='SJ/upl/gallery/large/20180426_230915.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180426_230915.jpg'><a
+                                                    data-responsive='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230915.jpg 800'
+                                                    data-src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230915.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
-                                                            src='SJ/upl/gallery/large/20180426_230915.jpg' alt='' /></a>
+                                                            src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230915.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
-                                                    data-responsive='SJ/upl/gallery/large/20180426_230902.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180426_230902.jpg'><a
+                                                    data-responsive='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230902.jpg 800'
+                                                    data-src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230902.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
-                                                            src='SJ/upl/gallery/large/20180426_230902.jpg' alt='' /></a>
+                                                            src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230902.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
-                                                    data-responsive='SJ/upl/gallery/large/20180426_230855.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180426_230855.jpg'><a
+                                                    data-responsive='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230855.jpg 800'
+                                                    data-src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230855.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
-                                                            src='SJ/upl/gallery/large/20180426_230855.jpg' alt='' /></a>
+                                                            src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230855.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
-                                                    data-responsive='SJ/upl/gallery/large/20180120_152903.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180120_152903.jpg'><a
+                                                    data-responsive='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152903.jpg 800'
+                                                    data-src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152903.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
-                                                            src='SJ/upl/gallery/large/20180120_152903.jpg' alt='' /></a>
+                                                            src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152903.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
-                                                    data-responsive='SJ/upl/gallery/large/20180120_152846.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180120_152846.jpg'><a
+                                                    data-responsive='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152846.jpg 800'
+                                                    data-src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152846.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
-                                                            src='SJ/upl/gallery/large/20180120_152846.jpg' alt='' /></a>
+                                                            src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152846.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
-                                                    data-responsive='SJ/upl/gallery/large/20180120_152841.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180120_152841.jpg'><a
+                                                    data-responsive='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152841.jpg 800'
+                                                    data-src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152841.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
-                                                            src='SJ/upl/gallery/large/20180120_152841.jpg' alt='' /></a>
+                                                            src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152841.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
-                                                    data-responsive='SJ/upl/gallery/large/20180120_152827.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180120_152827.jpg'><a
+                                                    data-responsive='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152827.jpg 800'
+                                                    data-src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152827.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
-                                                            src='SJ/upl/gallery/large/20180120_152827.jpg' alt='' /></a>
+                                                            src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152827.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
-                                                    data-responsive='SJ/upl/gallery/large/20180120_152811.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180120_152811.jpg'><a
+                                                    data-responsive='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152811.jpg 800'
+                                                    data-src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152811.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
-                                                            src='SJ/upl/gallery/large/20180120_152811.jpg' alt='' /></a>
+                                                            src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152811.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
-                                                    data-responsive='SJ/upl/gallery/large/20180120_152806.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180120_152806.jpg'><a
+                                                    data-responsive='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152806.jpg 800'
+                                                    data-src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152806.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
-                                                            src='SJ/upl/gallery/large/20180120_152806.jpg' alt='' /></a>
+                                                            src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152806.jpg' alt='' /></a>
                                                 </div> -->
                                             </div>
                                         </div>
@@ -1132,7 +1151,8 @@ if( have_rows('gallery_section_images') )
 
                                             <div id='ans<?php echo $q_idx;?>' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
-                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                        href='javascript:void(0);'><img
+                                                            src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
                                                             alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
@@ -1156,7 +1176,7 @@ if( have_rows('gallery_section_images') )
 
                                             <!-- <div id='ans2' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
-                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                        href='javascript:void(0);'><img src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
                                                             alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
@@ -1180,7 +1200,7 @@ if( have_rows('gallery_section_images') )
                                             </div>
                                             <div id='ans3' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
-                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                        href='javascript:void(0);'><img src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
                                                             alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
@@ -1210,7 +1230,7 @@ if( have_rows('gallery_section_images') )
                                             </div>
                                             <div id='ans4' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
-                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                        href='javascript:void(0);'><img src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
                                                             alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
@@ -1241,7 +1261,7 @@ if( have_rows('gallery_section_images') )
                                             </div>
                                             <div id='ans5' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
-                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                        href='javascript:void(0);'><img src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
                                                             alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
@@ -1258,7 +1278,7 @@ if( have_rows('gallery_section_images') )
                                             </div>
                                             <div id='ans6' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
-                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                        href='javascript:void(0);'><img src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
                                                             alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
@@ -1274,7 +1294,7 @@ if( have_rows('gallery_section_images') )
                                             </div>
                                             <div id='ans7' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
-                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                        href='javascript:void(0);'><img src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
                                                             alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
@@ -1303,7 +1323,7 @@ if( have_rows('gallery_section_images') )
                                             </div>
                                             <div id='ans8' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
-                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                        href='javascript:void(0);'><img src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
                                                             alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
@@ -1323,7 +1343,7 @@ if( have_rows('gallery_section_images') )
                                             </div>
                                             <div id='ans9' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
-                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                        href='javascript:void(0);'><img src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
                                                             alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
@@ -1345,7 +1365,7 @@ if( have_rows('gallery_section_images') )
                                             </div>
                                             <div id='ans10' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
-                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                        href='javascript:void(0);'><img src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
                                                             alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
@@ -1416,7 +1436,7 @@ if( have_rows('gallery_section_images') )
 
                                         <!-- <div class='partnership-box clearfix'>
                                             <div class='image-holder'>
-                                                <img class='img-responsive' src='SJ/upl/partner/20131209_173647.jpg'
+                                                <img class='img-responsive' src='<?php echo get_site_url();?>/SJ/upl/partner/20131209_173647.jpg'
                                                     alt='' />
                                             </div>
                                             <div class='text-box'>
@@ -1436,7 +1456,7 @@ if( have_rows('gallery_section_images') )
                                         </div>
                                         <div class='partnership-box clearfix'>
                                             <div class='image-holder'>
-                                                <img class='img-responsive' src='SJ/upl/partner/20131209_174438.jpg'
+                                                <img class='img-responsive' src='<?php echo get_site_url();?>/SJ/upl/partner/20131209_174438.jpg'
                                                     alt='' />
                                             </div>
                                             <div class='text-box'>
@@ -1460,7 +1480,7 @@ if( have_rows('gallery_section_images') )
                                         </div>
                                         <div class='partnership-box clearfix'>
                                             <div class='image-holder'>
-                                                <img class='img-responsive' src='SJ/upl/partner/20131209_174616.jpg'
+                                                <img class='img-responsive' src='<?php echo get_site_url();?>/SJ/upl/partner/20131209_174616.jpg'
                                                     alt='' />
                                             </div>
                                             <div class='text-box'>
@@ -1897,7 +1917,7 @@ if( have_rows('gallery_section_images') )
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label>Type the code from the below image</label>
-                                                    <img src="SJ/php/captcha/captcha.php" id="captcha-img" alt="" />
+                                                    <img src="<?php echo get_site_url();?>/SJ/php/captcha/captcha.php" id="captcha-img" alt="" />
                                                     <font class="codeChange">Change</font>
                                                     <input type="text" id="captcha" name="captcha"><span></span>
                                                 </div>
@@ -1927,7 +1947,8 @@ if( have_rows('gallery_section_images') )
                         </div>
                     </div>
                 </div>
-                <div class="process"><span><img src='SJ/img/loading.gif'><BR><BR>Data Processing</img></span></div>
+                <div class="process"><span><img src='<?php echo get_site_url();?>/SJ/img/loading.gif'><BR><BR>Data
+                        Processing</img></span></div>
             </section>
             <!-- <section id="footer-section" class="footer-section post">
                 <div class="container">
@@ -1947,10 +1968,11 @@ if( have_rows('gallery_section_images') )
         <!-- Large modal -->
         <div class="up-down">
             <ul>
-                <li><a href="#"><img src="SJ/img/btn-txt_en.png" alt="" /></a></li>
-                <li><a id="up" href="#"><img src="SJ/img/btn-up.png" alt="" /></a></li>
-                <li><a id="down" href="#"><img src="SJ/img/btn-down.png" alt="" /></a></li>
-                <li><a class="scrol" href="#header"><img src="SJ/img/btn-top.png" alt="" /></a></li>
+                <li><a href="#"><img src="<?php echo get_site_url();?>/SJ/img/btn-txt_en.png" alt="" /></a></li>
+                <li><a id="up" href="#"><img src="<?php echo get_site_url();?>/SJ/img/btn-up.png" alt="" /></a></li>
+                <li><a id="down" href="#"><img src="<?php echo get_site_url();?>/SJ/img/btn-down.png" alt="" /></a></li>
+                <li><a class="scrol" href="#header"><img src="<?php echo get_site_url();?>/SJ/img/btn-top.png"
+                            alt="" /></a></li>
             </ul>
         </div>
         <script>
@@ -1980,12 +2002,12 @@ if( have_rows('gallery_section_images') )
         }
         </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script type="text/javascript" src="SJ/js/jquery.js"></script>
-        <script type="text/javascript" src="SJ/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="SJ/js/lightgallery.js"></script>
-        <script type="text/javascript" src="SJ/js/jquery.nicescroll.js"></script>
-        <script type="text/javascript" src="SJ/js/jquery.mousewheel.min.js"></script>
-        <script type="text/javascript" src="SJ/js/custom.js"></script>
+        <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.js"></script>
+        <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/lightgallery.js"></script>
+        <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.nicescroll.js"></script>
+        <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/custom.js"></script>
 
         <?php
 
