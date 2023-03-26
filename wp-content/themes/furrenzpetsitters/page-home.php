@@ -1728,33 +1728,38 @@ if( have_rows('gallery_section_images') )
                                         <div class="col-md-4 col-sm-4 col-xs-4">
                                             <div class="contact-info-inner">
                                                 <div class="image-holder">
-                                                    <img class="img-responsive" src="SJ/images/c-whatsapp.png" alt="" />
+
+                                                    <img class="img-responsive"
+                                                        src="<?php echo wp_get_attachment_image_src(get_sub_field('contact_section_icon_1'),'full')[0];?>"
+                                                        alt="" />
                                                 </div>
                                                 <div class="text-box">
-                                                    <p>Whatsapp us</p>
-                                                    <p></p>
+                                                    <?php echo get_field('contact_section_icon_content_1');?>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-4 col-xs-4">
                                             <div class="contact-info-inner">
                                                 <div class="image-holder">
-                                                    <img class="img-responsive" src="SJ/images/c-mail.png" alt="" />
+                                                    <img class="img-responsive"
+                                                        src="<?php echo wp_get_attachment_image_src(get_sub_field('contact_section_icon_2'),'full')[0];?>"
+                                                        alt="" />
                                                 </div>
                                                 <div class="text-box">
-                                                    <p>E-mail us</p>
-                                                    <a href="javascript:void(0)"
-                                                        onclick="emailClicked();">info@furrenzpetsitters.com</a>
+                                                    <?php echo get_field('contact_section_icon_content_2');?>
+
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-sm-4 col-xs-4">
                                             <div class="contact-info-inner">
                                                 <div class="image-holder">
-                                                    <img class="img-responsive" src="SJ/images/c-msg.png" alt="" />
+                                                    <img class="img-responsive"
+                                                        src="<?php echo wp_get_attachment_image_src(get_sub_field('contact_section_icon_3'),'full')[0];?>"
+                                                        alt="" />
                                                 </div>
                                                 <div class="text-box">
-                                                    <p>Send us a Message</p>
+                                                    <?php echo get_field('contact_section_icon_content_3');?>
                                                 </div>
                                             </div>
                                         </div>
