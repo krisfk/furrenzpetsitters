@@ -416,7 +416,7 @@
                              ?>
                                     <div class="about-team-box clearfix">
                                         <div class="image-holder">
-                                            <img src='<?php echo wp_get_attachment_image_src(get_field('pet_sitter_photo'),'full')[0];?>'
+                                            <img src='<?php echo wp_get_attachment_image_src(get_sub_field('pet_sitter_photo'),'full')[0];?>'
                                                 alt="" />
                                         </div>
                                         <div class="text-box">
