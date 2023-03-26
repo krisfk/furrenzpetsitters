@@ -402,6 +402,75 @@
                         <div class="col-md-12">
                             <div class="about-team">
                                 <div class="about-team-inner">
+
+
+                                    <?php
+                     
+                     
+                     if( have_rows('about_us_section_pet_sitters') )
+                     {
+                         // Loop through rows.
+                         while( have_rows('about_us_section_pet_sitters') ) 
+                         {
+                             the_row();
+                             ?>
+                                    <div class="about-team-box clearfix">
+                                        <div class="image-holder">
+                                            <img src='SJ/upl/team/20141101_022003.jpg' alt="" />
+                                        </div>
+                                        <div class="text-box">
+                                            <h3>
+                                                <!-- Viola -->
+                                            </h3>
+                                            <p>
+
+                                                <!-- Hi, this is Viola Leung, Founder and Head of Operations at Furrenz Pet
+                                                Sitters. <br />
+                                                I was born in Hong Kong and spent the past 15+ years in Canada. Since a
+                                                very
+                                                young age, I had established an instant connection with animals, and
+                                                since
+                                                then I knew right away that I was destined to focus the rest of my
+                                                career
+                                                and life to care for animals. I am a proud mother of three wonderful
+                                                babies
+                                                &#45; Bobby the Pembroke Welsh Corgi , Chimi the tabby cat, and Fluffy
+                                                the
+                                                lionhead bunny, and they are the love of my life. Our pets are such
+                                                wonderful companions who provide us with unconditional love, and I
+                                                believe
+                                                they deserve the same from us, so I set out to provide pets with the
+                                                best
+                                                love and care there is.<br />
+                                                I have been working with animals most of my life. I spent the recent 5+
+                                                years working as a professional Pet Sitter, Dog Walker, Doggy Day Care
+                                                Attendant, as well as Pet Hotel office manager in and outside of Hong
+                                                Kong.
+                                                I am also very humbled to have been interviewed by several television
+                                                and
+                                                magazine outlets in Hong Kong and Canada, to talk about my experience in
+                                                the
+                                                pet sitting field. Having taken care of hundreds of animals of different
+                                                kinds and breeds, I continue to educate myself. I have obtained the Pet
+                                                First Aid Certificate, the Veterinary Nursing Certificate (China Hong
+                                                Kong
+                                                Veterinarian Association), the Certified Professional Pet Sitter
+                                                Accreditation (Pet Sitters International), and will continue to learn
+                                                and
+                                                strive to be the best in the field in Hong Kong. <br />
+                                                I look forward meeting you and your furry babies, and welcome you to the
+                                                Furrenz family :&quot;)<br /> -->
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <?php
+                         }
+                     }
+                     ?>
+
+
+                                    <!-- 
                                     <div class="about-team-box clearfix">
                                         <div class="image-holder">
                                             <img src='SJ/upl/team/20141101_022003.jpg' alt="" />
@@ -860,7 +929,7 @@
                                                 Veterinary Clinic these years too. Hope I can give you and your pet a
                                                 wonderful period of time.</p>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="next-button">
