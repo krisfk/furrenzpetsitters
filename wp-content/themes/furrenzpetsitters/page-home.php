@@ -10,7 +10,7 @@
  * @subpackage Twenty_Twenty_One
  * @since Twenty Twenty-One 1.0
  */
-echo ICL_LANGUAGE_CODE;
+$curr_lang_flag = ICL_LANGUAGE_CODE;
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?> <?php twentytwentyone_the_html_classes(); ?>>
@@ -225,7 +225,8 @@ echo ICL_LANGUAGE_CODE;
                                             <div id="menu" class="navbar-collapse collapse">
                                                 <?php 
 
-                                                echo get_post_field('post_content', 263);
+
+                                                echo get_post_field('post_content', $curr_lang_flag =='en' ? 263:'');
 
                                                 ?>
                                                 <!-- <ul class="nav navbar-nav">
