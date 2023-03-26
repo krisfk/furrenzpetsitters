@@ -88,7 +88,27 @@
                                     <div class="feature-mamber clearfix">
                                         <p><?php echo get_field('first_section_text_1');?></p>
                                         <ul>
-                                            <li><a href="#"><img class="img-responsive"
+
+                                            <?php
+                                      
+                                        // Check rows existexists.
+                                        if( have_rows('first_section_logos') )
+                                        {
+                                            // Loop through rows.
+                                            while( have_rows('first_section_logos') ) 
+                                            {
+                                                the_row();
+                                                ?>
+                                            <li><a href="<?php echo get_sub_field('logo_link');?>"><img
+                                                        class="img-responsive"
+                                                        src='<?php echo wp_get_attachment_image_src(get_sub_field('first_section_logo'),'full')[0];?>'
+                                                        alt="" /></a>
+                                            </li>
+                                            <?php
+                                            }
+                                        }
+                                        ?>
+                                            <!-- <li><a href="#"><img class="img-responsive"
                                                         src='SJ/upl/gallery/large/20170610_141100.jpg' alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
@@ -102,7 +122,7 @@
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
                                                         src='SJ/upl/gallery/large/20170610_142548.jpg' alt="" /></a>
-                                            </li>
+                                            </li> -->
                                         </ul>
                                     </div>
                                     <div class="feature-mamber feature-on clearfix">
