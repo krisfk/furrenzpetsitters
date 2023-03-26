@@ -62,7 +62,7 @@
                                     </div>
                                     <div class="text-box">
 
-                                        <?php echo get_field('first_section_title');?>
+                                        <?php //echo get_field('first_section_title');?>
                                         <!-- <h1>Providing Hong Kong's Highest Quality <br> Professional Pet Care Services To
                                             Our
                                             Furry Friends</h1>
