@@ -599,7 +599,31 @@
                                     <div class="media-vedio-inner media-gallery-inner">
                                         <div class="demo-gallery">
                                             <div id="lightgallery" class="row list-unstyled">
+
+                                                <?php
+
+if( have_rows('gallery_section_images') )
+{
+    // Loop through rows.
+    while( have_rows('gallery_section_images') ) 
+    {
+        the_row();
+        ?>
+
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
+                                                    data-responsive='<?php echo wp_get_attachment_image_src(get_sub_field('gallery_section_image'),'full')[0];?> 800'
+                                                    data-src='<?php echo wp_get_attachment_image_src(get_sub_field('gallery_section_image'),'full')[0];?>'>
+                                                    <a href='javascript:void(0);'><img class='img-responsive'
+                                                            src='<?php echo wp_get_attachment_image_src(get_sub_field('gallery_section_image'),'full')[0];?>'
+                                                            alt='' /></a>
+                                                </div>
+                                                <?php
+    }
+}
+?>
+
+
+                                                <!-- <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='SJ/upl/gallery/large/20180426_230940.jpg 800'
                                                     data-src='SJ/upl/gallery/large/20180426_230940.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
@@ -664,7 +688,7 @@
                                                     data-src='SJ/upl/gallery/large/20180120_152806.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
                                                             src='SJ/upl/gallery/large/20180120_152806.jpg' alt='' /></a>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
