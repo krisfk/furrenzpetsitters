@@ -12,7 +12,7 @@
  */
 $curr_lang_flag = ICL_LANGUAGE_CODE;
 
-$next_page_txt = $curr_lang_flag =='en' ? 'next page':'下一頁';
+$next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
 
 ?>
 <!doctype html>
