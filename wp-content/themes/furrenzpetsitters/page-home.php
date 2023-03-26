@@ -61,10 +61,12 @@
                                         <a href="#"><img class="img-responsive" src="SJ/images/logo.jpg" alt="" /></a>
                                     </div>
                                     <div class="text-box">
-                                        <h1>Providing Hong Kong's Highest Quality <br> Professional Pet Care Services To
+
+                                        <?php echo get_field('first_section_title');?>
+                                        <!-- <h1>Providing Hong Kong's Highest Quality <br> Professional Pet Care Services To
                                             Our
                                             Furry Friends</h1>
-                                        <p>為我們的毛毛朋友提供香港最高質素的專業寵物護理服務</p>
+                                        <p>為我們的毛毛朋友提供香港最高質素的專業寵物護理服務</p> -->
                                     </div>
                                 </div>
                                 <div class="mid-head">
