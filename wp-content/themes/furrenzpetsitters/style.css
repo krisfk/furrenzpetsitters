@@ -148,3 +148,7 @@ input[type='submit'] {
   color: #fff;
   padding: 7px 20px;
 }
+
+.contact-form {
+  padding-bottom: 5rem !important;
+}
