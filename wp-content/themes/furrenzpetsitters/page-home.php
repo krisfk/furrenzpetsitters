@@ -345,7 +345,8 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="image-holder">
-                                <img src="SJ/images/images/about-img-left.png" alt="" />
+                                <img src="<?php echo wp_get_attachment_image_src(get_field('about_us_section_img_1'),'full')[0];?>"
+                                    alt="" />
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12">
@@ -392,7 +393,8 @@
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="image-holder">
-                                <img src="SJ/images/images/about-img-right.png" alt="" />
+                                <img src="<?php echo wp_get_attachment_image_src(get_field('about_us_section_img_2'),'full')[0];?>"
+                                    alt="" />
                             </div>
                         </div>
                     </div>
