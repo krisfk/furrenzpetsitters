@@ -1730,7 +1730,7 @@ if( have_rows('gallery_section_images') )
                                                 <div class="image-holder">
 
                                                     <img class="img-responsive"
-                                                        src="<?php echo wp_get_attachment_image_src(get_sub_field('contact_section_icon_1'),'full')[0];?>"
+                                                        src="<?php echo wp_get_attachment_image_src(get_field('contact_section_icon_1'),'full')[0];?>"
                                                         alt="" />
                                                 </div>
                                                 <div class="text-box">
@@ -1742,7 +1742,7 @@ if( have_rows('gallery_section_images') )
                                             <div class="contact-info-inner">
                                                 <div class="image-holder">
                                                     <img class="img-responsive"
-                                                        src="<?php echo wp_get_attachment_image_src(get_sub_field('contact_section_icon_2'),'full')[0];?>"
+                                                        src="<?php echo wp_get_attachment_image_src(get_field('contact_section_icon_2'),'full')[0];?>"
                                                         alt="" />
                                                 </div>
                                                 <div class="text-box">
@@ -1755,7 +1755,7 @@ if( have_rows('gallery_section_images') )
                                             <div class="contact-info-inner">
                                                 <div class="image-holder">
                                                     <img class="img-responsive"
-                                                        src="<?php echo wp_get_attachment_image_src(get_sub_field('contact_section_icon_3'),'full')[0];?>"
+                                                        src="<?php echo wp_get_attachment_image_src(get_field('contact_section_icon_3'),'full')[0];?>"
                                                         alt="" />
                                                 </div>
                                                 <div class="text-box">
