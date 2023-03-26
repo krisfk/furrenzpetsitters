@@ -196,10 +196,10 @@
                                                         <font class="slipe">/</font>
                                                     </li>
 
-                                                    <li><a class="scrol menu-en" href="#beauty-pet-section">Pet
+                                                    <!-- <li><a class="scrol menu-en" href="#beauty-pet-section">Pet
                                                             Grooming</a>
                                                         <font class="slipe">/</font>
-                                                    </li>
+                                                    </li> -->
 
                                                     <li><a class="scrol menu-en" href="#faq-section">FAQ</a>
                                                         <font class="slipe">/</font>
