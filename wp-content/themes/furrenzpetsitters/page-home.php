@@ -1704,16 +1704,25 @@ if( have_rows('gallery_section_images') )
                     <div class="row">
                         <div class="col-md-12">
                             <div class="contact-inner">
-                                <h2>Contact</h2>
+                                <h2>
+
+                                    <!-- Contact -->
+                                    <?php echo get_field('contact_section_title');?>
+
+
+                                </h2>
                                 <div class="contact-info">
                                     <div class="contact-info-contant">
-                                        <h3>KEEP IN TOUCH!</h3>
+
+
+                                        <?php echo get_field('contact_section_content');?>
+                                        <!-- <h3>KEEP IN TOUCH!</h3>
                                         <p>Feel free to send us an email, or look us up on Facebook: Furrenz Pet
                                             Sitters. We
                                             are looking forward to hearing from you.</p>
                                         <p>Interested in joining us as a pet sitter or dog walker? Please send us an
                                             email
-                                            with your cv at career@furrenzpetsitters.com.</p>
+                                            with your cv at career@furrenzpetsitters.com.</p> -->
                                     </div>
                                     <div class="row">
                                         <div class="col-md-4 col-sm-4 col-xs-4">
