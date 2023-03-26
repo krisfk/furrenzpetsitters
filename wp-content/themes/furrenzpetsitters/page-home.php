@@ -416,14 +416,20 @@
                              ?>
                                     <div class="about-team-box clearfix">
                                         <div class="image-holder">
-                                            <img src='SJ/upl/team/20141101_022003.jpg' alt="" />
+                                            <img src='<?php echo wp_get_attachment_image_src(get_field('pet_sitter_photo'),'full')[0];?>'
+                                                alt="" />
                                         </div>
                                         <div class="text-box">
                                             <h3>
+                                                <?php
+                                                echo get_sub_field('pet_sitter_name');
+                                                ?>
                                                 <!-- Viola -->
                                             </h3>
                                             <p>
-
+                                                <?php
+                                                echo get_sub_field('pet_sitter_description');
+                                                ?>
                                                 <!-- Hi, this is Viola Leung, Founder and Head of Operations at Furrenz Pet
                                                 Sitters. <br />
                                                 I was born in Hong Kong and spent the past 15+ years in Canada. Since a
