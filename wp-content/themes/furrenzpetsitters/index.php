@@ -1141,7 +1141,7 @@
             </section>
 
 
-            <section id="beauty-pet-section" class=" beauty-pet-section post">
+            <!-- <section id="beauty-pet-section" class=" beauty-pet-section post">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -1181,7 +1181,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
 
 
