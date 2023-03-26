@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*
 Theme Name: furrenzpetsitters
 Theme URI: https://wordpress.org/themes/twentytwentyone/
@@ -18,7 +17,6 @@ Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, 
 Twenty Twenty-One WordPress Theme, (C) 2020 WordPress.org
 Twenty Twenty-One is distributed under the terms of the GNU GPL.
 */
-
 /**
  * SETTINGS
  * File-header..........The file header for the themes style.css file.
@@ -93,7 +91,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
  * Editor Font Sizes....Editor Font Sizes.
  * Measure..............The width of a line of text, in characters.
  */
-
 /* Categories 01 to 03 are the basics. */
 
 .mbl-sc li {
@@ -151,4 +148,18 @@ input[type='submit'] {
 
 .contact-form {
   padding-bottom: 5rem !important;
+}
+
+#menu {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+    margin: 0;
+    /* text-align: center; */
+    display: inline-block;
+    margin: 0 auto;
+  }
 }
