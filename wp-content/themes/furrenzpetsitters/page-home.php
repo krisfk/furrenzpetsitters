@@ -1919,7 +1919,7 @@ if( have_rows('gallery_section_images') )
                                     <?php
 
 
-                                    echo do_shortcode('[contact-form-7 id="251" title="Contact form 1"]');
+                                    echo do_shortcode('[contact-form-7 id="252" title="Contact form"]');
                                     ?>
 
                                 </div>
