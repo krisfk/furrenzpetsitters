@@ -463,12 +463,12 @@
                                         <div class="row no-marrgin">
 
                                             <div class="col-md-6 col-sm-6 col-xs-6">
-                                                <a href="#" data-toggle="modal" data-target="#modal-13"><img
+                                                <a href="#" data-toggle="modal" data-target="#modal-1"><img
                                                         class="img-responsive"
                                                         src="http://img.youtube.com/vi/UF-wqhUCGMk/0.jpg" alt="" /></a>
                                             </div>
 
-                                            <div id="modal-13" class="modal fade modal-youtube" tabindex="-1"
+                                            <div id="modal-1" class="modal fade modal-youtube" tabindex="-1"
                                                 role="dialog">
                                                 <div class="modal-dialog modal-lg" role="document">
                                                     <div class="modal-content">
