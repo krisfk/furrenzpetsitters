@@ -226,7 +226,7 @@ $curr_lang_flag = ICL_LANGUAGE_CODE;
                                                 <?php 
 
 
-                                                echo get_post_field('post_content', $curr_lang_flag =='en' ? 263:'');
+                                                echo get_post_field('post_content', $curr_lang_flag =='en' ? 263:267);
 
                                                 ?>
                                                 <!-- <ul class="nav navbar-nav">
