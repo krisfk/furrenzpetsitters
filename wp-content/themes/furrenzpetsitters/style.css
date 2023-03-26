@@ -105,3 +105,15 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
   /* margin: 25px auto 0; */
   /* float: left !important; */
 }
+
+.contact-form-inner .form-group input[type='email'] {
+  background: #e7e8e9 none repeat scroll 0 0;
+  border: 1px solid #c2c3c5;
+  border-radius: 5px;
+  color: #8a8b8d;
+  font: 14px/16px 'Imprima', Arial, Helvetica;
+  height: 34px;
+  letter-spacing: 1px;
+  padding-left: 5px;
+  width: 100%;
+}
