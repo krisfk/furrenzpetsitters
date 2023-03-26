@@ -157,6 +157,10 @@ input[type='submit'] {
   text-align: center;
 }
 
+.socail-icon {
+  top: 74% !important;
+}
+
 @media (min-width: 768px) {
   .navbar-nav {
     float: none !important;
