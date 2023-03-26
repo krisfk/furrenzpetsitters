@@ -864,40 +864,66 @@ if( have_rows('gallery_section_images') )
                             <div class="over-night-inner clearfix">
                                 <div class="over-night-colum">
                                     <div class="hedding">
-                                        <h2>overnight pet sitting</h2>
+                                        <h2>
+                                            <?php
+                                            echo get_field('overnight_pet_sitting_section_title');
+                                            ?>
+                                            <!-- overnight pet sitting -->
+                                        </h2>
                                     </div>
                                     <div class="text-box">
                                         <div class="text-contant">
-                                            <p>(Note that we only offer overnight pet sitting service in your home, and
+                                            <p>
+
+                                                <?php echo get_field('overnight_pet_sitting_section_note_1');?>
+
+
+                                                <!-- (Note that we only offer overnight pet sitting service in your home, and
                                                 not
-                                                in a hotel facility)</p>
+                                                in a hotel facility) -->
+                                            </p>
                                         </div>
                                         <div class="cat-setting clearfix">
-                                            <h3>Overnight Pet Sitting services included</h3>
-                                            <ul>
+                                            <h3>
+                                                <?php echo get_field('overnight_pet_sitting_section_subtitle_1');?>
+
+                                                <!-- Overnight Pet Sitting services included -->
+                                            </h3>
+                                            <?php echo get_field('overnight_pet_sitting_section_content_1');?>
+
+                                            <!-- <ul>
                                                 <li>Daily Dog Walking</li>
                                                 <li>Dog poop clean up</li>
                                                 <li>Pet Sitter play time with dog / cat</li>
                                                 <li>Daily email updates with pictures of dog / cat</li>
                                                 <li>Feed & fresh water</li>
                                                 <li>Constant companion and lots of TLC</li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
                                         <div class="cat-pricing">
-                                            <h3>Pricing</h3>
-                                            <ul>
+                                            <h3>
+                                                <?php echo get_field('overnight_pet_sitting_section_subtitle_2');?>
+
+                                                <!-- Pricing -->
+                                            </h3>
+                                            <?php echo get_field('overnight_pet_sitting_section_content_2');?>
+
+
+                                            <!-- <ul>
                                                 <li>Less than 12 hours (e.g. dinner to breakfast) - $700</li>
                                                 <li>More than 12 hours (e.g. dinner to lunch) - $800</li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
                                         <div class="cat-note">
-                                            <span>Note</span>
+                                            <?php echo get_field('overnight_pet_sitting_section_note_2');?>
+
+                                            <!-- <span>Note</span>
                                             <p>
                                                 - Additional 50% day charge for general public holiday Dog Sitting / Cat
                                                 Sitting (exludes normal weekends)<BR>
                                                 - Travel surcharge - no charge if total return cost under $20, if more
                                                 charge difference <BR>
-                                            </p>
+                                            </p> -->
                                         </div>
                                         <div class="next-button">
                                             <a class="scrol" href="#small-animal-section">Next<i
