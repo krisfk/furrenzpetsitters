@@ -198,14 +198,14 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                             <li><a class="social"
                                     href="https://www.facebook.com/pages/Furrenz-Pet-Sitters/540414256013274"><img
                                         src="<?php echo get_site_url();?>/SJ/img/icon_fb.png" alt="" /></a></li>
-                            <li><a class="social" href="https://plus.google.com/108119820827891516205"><img
-                                        src="<?php echo get_site_url();?>/SJ/img/icon_gp.png" alt="" /></a></li>
+                            <!-- <li><a class="social" href="https://plus.google.com/108119820827891516205"><img
+                                        src="<?php echo get_site_url();?>/SJ/img/icon_gp.png" alt="" /></a></li> -->
                             <li><a class="social" href="http://www.instagram.com/furrenz"><img
                                         src="<?php echo get_site_url();?>/SJ/img/icon_instagram.png" alt="" /></a></li>
                             <li><a class="social" href="http://www.youtube.com/user/FurrenzPetSitters"><img
                                         src="<?php echo get_site_url();?>/SJ/img/icon_yt.png" alt="" /></a></li>
-                            <li><a class="social" href="https://twitter.com/FurrenzPetSitHK"><img
-                                        src="<?php echo get_site_url();?>/SJ/img/icon_tw.png" alt="" /></a></li>
+                            <!-- <li><a class="social" href="https://twitter.com/FurrenzPetSitHK"><img
+                                        src="<?php echo get_site_url();?>/SJ/img/icon_tw.png" alt="" /></a></li> -->
                         </ul>
                     </div>
                 </div>
