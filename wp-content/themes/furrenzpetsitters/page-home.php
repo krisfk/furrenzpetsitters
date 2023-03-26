@@ -510,68 +510,68 @@
                                             <div id="lightgallery" class="row list-unstyled">
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='SJ/upl/gallery/large/20180426_230940.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180426_230940.jpg'><a href='#'><img
-                                                            class='img-responsive'
+                                                    data-src='SJ/upl/gallery/large/20180426_230940.jpg'><a
+                                                        href='javascript:void(0);'><img class='img-responsive'
                                                             src='SJ/upl/gallery/large/20180426_230940.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='SJ/upl/gallery/large/20180426_230928.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180426_230928.jpg'><a href='#'><img
-                                                            class='img-responsive'
+                                                    data-src='SJ/upl/gallery/large/20180426_230928.jpg'><a
+                                                        href='javascript:void(0);'><img class='img-responsive'
                                                             src='SJ/upl/gallery/large/20180426_230928.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='SJ/upl/gallery/large/20180426_230915.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180426_230915.jpg'><a href='#'><img
-                                                            class='img-responsive'
+                                                    data-src='SJ/upl/gallery/large/20180426_230915.jpg'><a
+                                                        href='javascript:void(0);'><img class='img-responsive'
                                                             src='SJ/upl/gallery/large/20180426_230915.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='SJ/upl/gallery/large/20180426_230902.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180426_230902.jpg'><a href='#'><img
-                                                            class='img-responsive'
+                                                    data-src='SJ/upl/gallery/large/20180426_230902.jpg'><a
+                                                        href='javascript:void(0);'><img class='img-responsive'
                                                             src='SJ/upl/gallery/large/20180426_230902.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='SJ/upl/gallery/large/20180426_230855.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180426_230855.jpg'><a href='#'><img
-                                                            class='img-responsive'
+                                                    data-src='SJ/upl/gallery/large/20180426_230855.jpg'><a
+                                                        href='javascript:void(0);'><img class='img-responsive'
                                                             src='SJ/upl/gallery/large/20180426_230855.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='SJ/upl/gallery/large/20180120_152903.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180120_152903.jpg'><a href='#'><img
-                                                            class='img-responsive'
+                                                    data-src='SJ/upl/gallery/large/20180120_152903.jpg'><a
+                                                        href='javascript:void(0);'><img class='img-responsive'
                                                             src='SJ/upl/gallery/large/20180120_152903.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='SJ/upl/gallery/large/20180120_152846.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180120_152846.jpg'><a href='#'><img
-                                                            class='img-responsive'
+                                                    data-src='SJ/upl/gallery/large/20180120_152846.jpg'><a
+                                                        href='javascript:void(0);'><img class='img-responsive'
                                                             src='SJ/upl/gallery/large/20180120_152846.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='SJ/upl/gallery/large/20180120_152841.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180120_152841.jpg'><a href='#'><img
-                                                            class='img-responsive'
+                                                    data-src='SJ/upl/gallery/large/20180120_152841.jpg'><a
+                                                        href='javascript:void(0);'><img class='img-responsive'
                                                             src='SJ/upl/gallery/large/20180120_152841.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='SJ/upl/gallery/large/20180120_152827.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180120_152827.jpg'><a href='#'><img
-                                                            class='img-responsive'
+                                                    data-src='SJ/upl/gallery/large/20180120_152827.jpg'><a
+                                                        href='javascript:void(0);'><img class='img-responsive'
                                                             src='SJ/upl/gallery/large/20180120_152827.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='SJ/upl/gallery/large/20180120_152811.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180120_152811.jpg'><a href='#'><img
-                                                            class='img-responsive'
+                                                    data-src='SJ/upl/gallery/large/20180120_152811.jpg'><a
+                                                        href='javascript:void(0);'><img class='img-responsive'
                                                             src='SJ/upl/gallery/large/20180120_152811.jpg' alt='' /></a>
                                                 </div>
                                                 <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='SJ/upl/gallery/large/20180120_152806.jpg 800'
-                                                    data-src='SJ/upl/gallery/large/20180120_152806.jpg'><a href='#'><img
-                                                            class='img-responsive'
+                                                    data-src='SJ/upl/gallery/large/20180120_152806.jpg'><a
+                                                        href='javascript:void(0);'><img class='img-responsive'
                                                             src='SJ/upl/gallery/large/20180120_152806.jpg' alt='' /></a>
                                                 </div>
                                             </div>
@@ -860,31 +860,40 @@
                                             <ul>
                                                 <li id='id1'><a href='javascript:void(0);'>So how does Pet Sitting
                                                         work?</a></li>
-                                                <li id='id2'><a href='#'>How do I know for sure that my pet will be ok
+                                                <li id='id2'><a href='javascript:void(0);'>How do I know for sure that
+                                                        my pet will be ok
                                                         with
                                                         the pet sitter?</a></li>
-                                                <li id='id3'><a href='#'>Why not bring my pets to a Pet Hotel or Pet
+                                                <li id='id3'><a href='javascript:void(0);'>Why not bring my pets to a
+                                                        Pet Hotel or Pet
                                                         Kennel?</a></li>
-                                                <li id='id4'><a href='#'>Why not hire a domestic helper instead of a pet
+                                                <li id='id4'><a href='javascript:void(0);'>Why not hire a domestic
+                                                        helper instead of a pet
                                                         sitter?</a></li>
-                                                <li id='id5'><a href='#'>How do I know my pet is doing fine?</a></li>
-                                                <li id='id6'><a href='#'>How will the pet sitter access my home?</a>
+                                                <li id='id5'><a href='javascript:void(0);'>How do I know my pet is doing
+                                                        fine?</a></li>
+                                                <li id='id6'><a href='javascript:void(0);'>How will the pet sitter
+                                                        access my home?</a>
                                                 </li>
-                                                <li id='id7'><a href='#'>How do I know I can trust the pet sitter to
+                                                <li id='id7'><a href='javascript:void(0);'>How do I know I can trust the
+                                                        pet sitter to
                                                         enter
                                                         my home? </a></li>
-                                                <li id='id8'><a href='#'>What if my pet is ill while I’m away?</a></li>
-                                                <li id='id9'><a href='#'>What if I need to cancel the service due to
+                                                <li id='id8'><a href='javascript:void(0);'>What if my pet is ill while
+                                                        I’m away?</a></li>
+                                                <li id='id9'><a href='javascript:void(0);'>What if I need to cancel the
+                                                        service due to
                                                         change
                                                         of plans?</a></li>
-                                                <li id='id10'><a href='#'>How do I pay?</a></li>
+                                                <li id='id10'><a href='javascript:void(0);'>How do I pay?</a></li>
 
                                             </ul>
                                         </div>
                                         <div class="faq-colum-ans-main">
                                             <div id='ans1' class='ans'>
-                                                <div class='close-icon'><a class='close-sec' href='#'><img
-                                                            src='SJ/images/close-icon.png' alt='' /></a></div>
+                                                <div class='close-icon'><a class='close-sec'
+                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                            alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
                                                         <h4>So how does Pet Sitting work?</h4>
@@ -916,8 +925,9 @@
                                                 </div>
                                             </div>
                                             <div id='ans2' class='ans'>
-                                                <div class='close-icon'><a class='close-sec' href='#'><img
-                                                            src='SJ/images/close-icon.png' alt='' /></a></div>
+                                                <div class='close-icon'><a class='close-sec'
+                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                            alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
                                                         <h4>How do I know for sure that my pet will be ok with the pet
@@ -939,8 +949,9 @@
                                                 </div>
                                             </div>
                                             <div id='ans3' class='ans'>
-                                                <div class='close-icon'><a class='close-sec' href='#'><img
-                                                            src='SJ/images/close-icon.png' alt='' /></a></div>
+                                                <div class='close-icon'><a class='close-sec'
+                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                            alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
                                                         <h4>Why not bring my pets to a Pet Hotel or Pet Kennel?</h4>
@@ -968,8 +979,9 @@
                                                 </div>
                                             </div>
                                             <div id='ans4' class='ans'>
-                                                <div class='close-icon'><a class='close-sec' href='#'><img
-                                                            src='SJ/images/close-icon.png' alt='' /></a></div>
+                                                <div class='close-icon'><a class='close-sec'
+                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                            alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
                                                         <h4>Why not hire a domestic helper instead of a pet sitter?</h4>
@@ -998,8 +1010,9 @@
                                                 </div>
                                             </div>
                                             <div id='ans5' class='ans'>
-                                                <div class='close-icon'><a class='close-sec' href='#'><img
-                                                            src='SJ/images/close-icon.png' alt='' /></a></div>
+                                                <div class='close-icon'><a class='close-sec'
+                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                            alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
                                                         <h4>How do I know my pet is doing fine?</h4>
@@ -1014,8 +1027,9 @@
                                                 </div>
                                             </div>
                                             <div id='ans6' class='ans'>
-                                                <div class='close-icon'><a class='close-sec' href='#'><img
-                                                            src='SJ/images/close-icon.png' alt='' /></a></div>
+                                                <div class='close-icon'><a class='close-sec'
+                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                            alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
                                                         <h4>How will the pet sitter access my home?</h4>
@@ -1029,8 +1043,9 @@
                                                 </div>
                                             </div>
                                             <div id='ans7' class='ans'>
-                                                <div class='close-icon'><a class='close-sec' href='#'><img
-                                                            src='SJ/images/close-icon.png' alt='' /></a></div>
+                                                <div class='close-icon'><a class='close-sec'
+                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                            alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
                                                         <h4>How do I know I can trust the pet sitter to enter my home?
@@ -1057,8 +1072,9 @@
                                                 </div>
                                             </div>
                                             <div id='ans8' class='ans'>
-                                                <div class='close-icon'><a class='close-sec' href='#'><img
-                                                            src='SJ/images/close-icon.png' alt='' /></a></div>
+                                                <div class='close-icon'><a class='close-sec'
+                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                            alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
                                                         <h4>What if my pet is ill while I’m away?</h4>
@@ -1076,8 +1092,9 @@
                                                 </div>
                                             </div>
                                             <div id='ans9' class='ans'>
-                                                <div class='close-icon'><a class='close-sec' href='#'><img
-                                                            src='SJ/images/close-icon.png' alt='' /></a></div>
+                                                <div class='close-icon'><a class='close-sec'
+                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                            alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
                                                         <h4>What if I need to cancel the service due to change of plans?
@@ -1097,8 +1114,9 @@
                                                 </div>
                                             </div>
                                             <div id='ans10' class='ans'>
-                                                <div class='close-icon'><a class='close-sec' href='#'><img
-                                                            src='SJ/images/close-icon.png' alt='' /></a></div>
+                                                <div class='close-icon'><a class='close-sec'
+                                                        href='javascript:void(0);'><img src='SJ/images/close-icon.png'
+                                                            alt='' /></a></div>
                                                 <div class='faq-answer'>
                                                     <div class='faq-answer-heding'>
                                                         <h4>How do I pay?</h4>
