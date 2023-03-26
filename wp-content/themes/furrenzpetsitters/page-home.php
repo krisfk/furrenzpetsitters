@@ -10,7 +10,7 @@
  * @subpackage Twenty_Twenty_One
  * @since Twenty Twenty-One 1.0
  */
-
+echo ICL_LANGUAGE_CODE;
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?> <?php twentytwentyone_the_html_classes(); ?>>
@@ -223,9 +223,8 @@
                                                 </button>
                                             </div>
                                             <div id="menu" class="navbar-collapse collapse">
-                                                <!-- 999999 -->
                                                 <?php 
-                                                //echo get_the_content(263);
+
                                                 echo get_post_field('post_content', 263);
 
                                                 ?>
