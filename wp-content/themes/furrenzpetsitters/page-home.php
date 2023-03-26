@@ -354,7 +354,11 @@
                                     <h2><?php echo get_field('about_us_section_title');?></h2>
                                 </div>
                                 <p class="desc">
-                                    Furrenz Pet Sitters’ mission is to provide the Highest Quality Professional Pet Care
+
+                                    <?php
+                                echo get_field('about_us_section_description');
+                                ?>
+                                    <!-- Furrenz Pet Sitters’ mission is to provide the Highest Quality Professional Pet Care
                                     Services in Hong Kong. We are proud members of Pet Sitters International (PSI),
                                     Professional United Pet Sitters (PUPS), and Association of Pet Sitting Excellence
                                     (APSE).<br />
@@ -381,7 +385,7 @@
                                     members
                                     of the Furrenz family.<br />
                                     <br />
-                                    A Hong Kong Registered Company &#45; 54767480&#45;000&#45;08&#45;13&#45;0<br />
+                                    A Hong Kong Registered Company &#45; 54767480&#45;000&#45;08&#45;13&#45;0<br /> -->
 
                                 </p>
                             </div>
