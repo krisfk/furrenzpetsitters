@@ -467,7 +467,70 @@
                                                         class="img-responsive"
                                                         src="http://img.youtube.com/vi/UF-wqhUCGMk/0.jpg" alt="" /></a>
                                             </div>
-                                            <div class="col-md-6 col-sm-6 col-xs-6">
+
+                                            <div id="modal-13" class="modal fade modal-youtube" tabindex="-1"
+                                                role="dialog">
+                                                <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="embed-responsive embed-responsive-16by9">
+                                                            <iframe class="embed-responsive-item"
+                                                                src="https://www.youtube.com/embed/UF-wqhUCGMk"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- <div id="modal-14" class="modal fade modal-youtube" tabindex="-1"
+                                                role="dialog">
+                                                <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="embed-responsive embed-responsive-16by9">
+                                                            <iframe class="embed-responsive-item"
+                                                                src="https://www.youtube.com/embed/8ONLfpPO2as"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="modal-15" class="modal fade modal-youtube" tabindex="-1"
+                                                role="dialog">
+                                                <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="embed-responsive embed-responsive-16by9">
+                                                            <iframe class="embed-responsive-item"
+                                                                src="https://www.youtube.com/embed/JehnQrOwtz0"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="modal-16" class="modal fade modal-youtube" tabindex="-1"
+                                                role="dialog">
+                                                <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="embed-responsive embed-responsive-16by9">
+                                                            <iframe class="embed-responsive-item"
+                                                                src="https://www.youtube.com/embed/77ISyGYi-Gw"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="modal-17" class="modal fade modal-youtube" tabindex="-1"
+                                                role="dialog">
+                                                <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="embed-responsive embed-responsive-16by9">
+                                                            <iframe class="embed-responsive-item"
+                                                                src="https://www.youtube.com/embed/p-uvV0JJtZ8"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+
+
+                                            <!-- <div class="col-md-6 col-sm-6 col-xs-6">
                                                 <a href="#" data-toggle="modal" data-target="#modal-14"><img
                                                         class="img-responsive"
                                                         src="http://img.youtube.com/vi/8ONLfpPO2as/0.jpg" alt="" /></a>
@@ -486,7 +549,7 @@
                                                 <a href="#" data-toggle="modal" data-target="#modal-17"><img
                                                         class="img-responsive"
                                                         src="http://img.youtube.com/vi/p-uvV0JJtZ8/0.jpg" alt="" /></a>
-                                            </div>
+                                            </div> -->
 
                                         </div>
                                     </div>
@@ -1645,56 +1708,7 @@
                 </div>
             </section> -->
         </div>
-        <div id="modal-13" class="modal fade modal-youtube" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UF-wqhUCGMk"
-                            frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="modal-14" class="modal fade modal-youtube" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8ONLfpPO2as"
-                            frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="modal-15" class="modal fade modal-youtube" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JehnQrOwtz0"
-                            frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="modal-16" class="modal fade modal-youtube" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/77ISyGYi-Gw"
-                            frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="modal-17" class="modal fade modal-youtube" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/p-uvV0JJtZ8"
-                            frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
         <!-- Large modal -->
         <div class="up-down">
