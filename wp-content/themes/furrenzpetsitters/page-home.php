@@ -1947,7 +1947,10 @@ if( have_rows('gallery_section_images') )
                             <?php
 
 
-                                    echo do_shortcode('[contact-form-7 id="252" title="Contact form"]');
+echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Contact form"]') : do_shortcode('[contact-form-7 id="273" title="Contact form"]') ;
+
+                                    
+
                                     ?>
 
                             <!-- </div> -->
