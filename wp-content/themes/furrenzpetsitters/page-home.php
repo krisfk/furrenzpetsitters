@@ -490,7 +490,7 @@
                                                     <div class="modal-content">
                                                         <div class="embed-responsive embed-responsive-16by9">
                                                             <iframe class="embed-responsive-item"
-                                                                src="<?php echo wp_get_attachment_image_src(get_sub_field('video_url'),'full')[0];?>"
+                                                                src="<?php echo get_sub_field('video_url');?>"
                                                                 frameborder="0" allowfullscreen></iframe>
                                                         </div>
                                                     </div>
