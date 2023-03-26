@@ -989,35 +989,57 @@ if( have_rows('gallery_section_images') )
                             <div class="small-animal-inner clearfix">
                                 <div class="small-animal-colum">
                                     <div class="hedding">
-                                        <h2>Small Animal</h2>
+                                        <h2>
+                                            <?php echo get_field('small_animal_section_title');?>
+
+                                            <!-- Small Animal -->
+
+                                        </h2>
                                     </div>
                                     <div class="text-box">
                                         <div class="cat-setting clearfix">
-                                            <h3>Small Animal Sitting services included</h3>
-                                            <ul>
+                                            <h3>
+                                                <!-- Small Animal Sitting services included -->
+                                                <?php echo get_field('small_animal_section_subtitle_1');?>
+
+                                            </h3>
+                                            <?php echo get_field('small_animal_section_content_1');?>
+
+
+                                            <!-- <ul>
                                                 <li>Feeding, changing water</li>
                                                 <li>Animal medication <span>Complimentary</span></li>
                                                 <li>Pet Sitter play time with pet</li>
                                                 <li>Water plants / pick up mail /
                                                     take out garbage <span>Complimentary</span></li>
                                                 <li>Daily email updates with pictures of pet</li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
                                         <div class="cat-pricing">
-                                            <h3>Pricing</h3>
-                                            <ul>
+                                            <h3>
+                                                <!-- Pricing -->
+                                                <?php echo get_field('small_animal_section_subtitle_2');?>
+
+                                            </h3>
+                                            <?php echo get_field('small_animal_section_content_2');?>
+
+
+                                            <!-- <ul>
                                                 <li>30 min - $160</li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
                                         <div class="cat-note">
-                                            <span>Note</span>
+
+                                            <?php echo get_field('small_animal_section_note');?>
+
+                                            <!-- <span>Note</span>
                                             <p>
                                                 - Additional 50% day charge for general public holiday Pet Sitting
                                                 (exludes
                                                 normal weekends)<BR>
                                                 - Travel surcharge - no charge if total return cost under $20, if more
                                                 charge difference <BR>
-                                            </p>
+                                            </p> -->
                                         </div>
                                         <div class="next-button">
                                             <a class="scrol" href="#faq-section">Next<i
