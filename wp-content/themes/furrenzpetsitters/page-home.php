@@ -1375,32 +1375,46 @@ if( have_rows('gallery_section_images') )
                     <div class="row">
                         <div class="col-md-12">
                             <div class="partnership-inner">
-                                <h2>partnership & pet resources</h2>
+                                <h2>
+
+                                    <?php echo get_field('partnership_pet_resources_section_title');?>
+                                    <!-- partnership & pet resources -->
+
+                                </h2>
                                 <div class="partnership-colum">
                                     <div class="partnership-colum-inner clearfix">
+
+                                        <?php
+                                    
+                                    if( have_rows('partnership_pet_resources_section_partners') )
+                                    {
+                                        // Loop through rows.
+                                        while( have_rows('partnership_pet_resources_section_partners') ) 
+                                        {
+                                            the_row();
+                                            ?>
                                         <div class='partnership-box clearfix'>
                                             <div class='image-holder'>
-                                                <img class='img-responsive' src='SJ/upl/partner/20131222_165132.jpg'
+                                                <img class='img-responsive'
+                                                    src='<?php echo wp_get_attachment_image_src(get_sub_field('logo'),'full')[0];?>'
                                                     alt='' />
                                             </div>
                                             <div class='text-box'>
-                                                <h3>Creature Comforts</h3>
-                                                <span>Tel : 9773 0372</span>
-                                                <a href='http://www.creaturecomforts.com.hk'
-                                                    target='_blank"'>http://www.creaturecomforts.com.hk</a>
-                                                <p>Creature Comforts is Hong Kong&#39;s premier veterinary housecall
-                                                    service. Offering veterinary housecalls as well as pet food and
-                                                    medicine
-                                                    deliveries. Creature Comforts is the only housecall service that
-                                                    also
-                                                    provides patient transport to and from their own 24 hospital with
-                                                    full
-                                                    surgical, laboratory, x&#45;ray, ultrasound and hospitalisation
-                                                    capabilities. No matter what the situation, Creature Comforts can
-                                                    provide the solution.</p>
+                                                <h3><?php echo get_sub_field('partner_name');?></h3>
+                                                <span><?php echo get_sub_field('tel');?></span>
+                                                <a href='<?php echo get_sub_field('url');?>'
+                                                    target='_blank"'><?php echo get_sub_field('url');?></a>
+                                                <p><?php echo get_sub_field('description');?></p>
                                             </div>
                                         </div>
-                                        <div class='partnership-box clearfix'>
+
+                                        <?php
+                                        }
+                                    }
+                                    
+                                    ?>
+
+                                        <!-- <div class='partnership-box clearfix'>
                                             <div class='image-holder'>
                                                 <img class='img-responsive' src='SJ/upl/partner/20131209_173647.jpg'
                                                     alt='' />
@@ -1475,7 +1489,7 @@ if( have_rows('gallery_section_images') )
                                                     glad you did!<br />
                                                 </p>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                                 <div class="next-button">
