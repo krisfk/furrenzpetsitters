@@ -19,7 +19,6 @@ Twenty Twenty-One WordPress Theme, (C) 2020 WordPress.org
 Twenty Twenty-One is distributed under the terms of the GNU GPL.
 */
 
-
 /**
  * SETTINGS
  * File-header..........The file header for the themes style.css file.
@@ -95,9 +94,14 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
  * Measure..............The width of a line of text, in characters.
  */
 
-
 /* Categories 01 to 03 are the basics. */
 
 .mbl-sc li {
-    width: auto !important;
+  width: auto !important;
+}
+
+.next-button {
+  /* width: 700px; */
+  /* margin: 25px auto 0; */
+  float: left !important;
 }
