@@ -709,11 +709,21 @@ if( have_rows('gallery_section_images') )
                             <div class="cat-sitting-section-inner">
                                 <div class="cat-sitting-colum">
                                     <div class="hedding">
-                                        <h2>cat sitting</h2>
+                                        <h2>
+                                            <!-- cat sitting -->
+                                            <?php echo get_field('cat_sitting_section_title');?>
+                                        </h2>
                                     </div>
                                     <div class="cat-setting clearfix">
-                                        <h3>Cat Sitting services included</h3>
-                                        <ul>
+                                        <h3>
+                                            <!-- Cat Sitting services included -->
+                                            <?php echo get_field('cat_sitting_section_subtitle_1');?>
+
+
+                                        </h3>
+                                        <?php echo get_field('cat_sitting_section_content_1');?>
+
+                                        <!-- <ul>
                                             <li>Feeding, changing water</li>
                                             <li>Daily email updates with pictures of cat</li>
                                             <li>Cat Sitter play time with cat</li>
@@ -721,11 +731,19 @@ if( have_rows('gallery_section_images') )
                                             <li>Clean cat litter box</li>
                                             <li>Water plants / pick up mail /
                                                 take out garbage<span>Complimentary</span></li>
-                                        </ul>
+                                        </ul> -->
                                     </div>
                                     <div class="cat-pricing">
-                                        <h3>Pricing</h3>
-                                        <ul>
+                                        <h3>
+                                            <!-- Pricing -->
+                                            <?php echo get_field('cat_sitting_section_subtitle_2');?>
+
+                                        </h3>
+
+                                        <?php echo get_field('cat_sitting_section_content_2');?>
+
+
+                                        <!-- <ul>
                                             <li>30 min - $210</li>
                                             <li>45 min - $230</li>
                                             <li>60 min - $250</li>
@@ -736,17 +754,20 @@ if( have_rows('gallery_section_images') )
                                             </li>
                                             <li>Charge is for Cat Sitting up to 2 cats, each additional cat incur $40
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </div>
                                     <div class="cat-note">
-                                        <span>Note</span>
+
+                                        <?php echo get_field('cat_sitting_section_note');?>
+                                        <!-- <span>Note</span>
                                         <p>
                                             - Additional 50% day charge for general public holiday Pet Care Services
                                             (exludes normal weekends)<br>
                                             - Travel surcharge - no charge if total return cost under $20, if more
                                             charge
                                             difference
-                                        </p>
+                                        </p> -->
+
                                     </div>
                                     <div class="next-button">
                                         <a class="scrol" href="#dog-walking-section">Next<i
@@ -765,11 +786,22 @@ if( have_rows('gallery_section_images') )
                             <div class="cat-sitting-section-inner">
                                 <div class="cat-sitting-colum">
                                     <div class="hedding">
-                                        <h2>Dog Walking / Sitting</h2>
+                                        <h2>
+                                            <?php echo get_field('dog_walking_sitting_section_title');?>
+                                            <!-- Dog Walking / Sitting -->
+
+                                        </h2>
                                     </div>
                                     <div class="cat-setting clearfix">
-                                        <h3>Dog Walking / Dog Sitting services included</h3>
-                                        <ul>
+                                        <h3>
+                                            <?php echo get_field('dog_walking_sitting_section_subtitle_1');?>
+                                            <!-- Dog Walking / Dog Sitting services included -->
+                                        </h3>
+
+                                        <?php echo get_field('dog_walking_sitting_section_content_1');?>
+
+
+                                        <!-- <ul>
                                             <li>Dog Walker / Dog Sitter exclusive private walk/playtime</li>
                                             <li>Daily email updates with pictures of dog</li>
                                             <li>Towel rub if wet/muddy</li>
@@ -778,11 +810,18 @@ if( have_rows('gallery_section_images') )
                                             <li>Water plants / pick up mail /
                                                 take out garbage<span>Complimentary</span></li>
                                             <li>Dog poop cleanup</li>
-                                        </ul>
+                                        </ul> -->
                                     </div>
                                     <div class="cat-pricing">
-                                        <h3>Pricing</h3>
-                                        <ul>
+                                        <h3>
+                                            <?php echo get_field('dog_walking_sitting_section_subtitle_2');?>
+
+                                            <!-- Pricing -->
+                                        </h3>
+                                        <?php
+                                        
+                                        echo get_field('dog_walking_sitting_section_content_2');?>
+                                        <!-- <ul>
                                             <li>15 min potty breaks - $180</li>
                                             <li>30 min - $220</li>
                                             <li>45 min - $240</li>
@@ -794,17 +833,19 @@ if( have_rows('gallery_section_images') )
                                             </li>
                                             <li>Charge is for Dog Sitting up to 2 dogs, each additional dog incur $80
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </div>
                                     <div class="cat-note">
-                                        <span>Note</span>
+
+                                        <?php echo get_field('dog_walking_sitting_section_note');?>
+                                        <!-- <span>Note</span>
                                         <p>
                                             - Additional 50% day charge for general public holiday Pet Sitting services
                                             (exludes normal weekends)<BR>
                                             - Travel surcharge - no charge if total return cost under $20, if more
                                             charge
                                             difference <BR>
-                                        </p>
+                                        </p> -->
                                     </div>
                                     <div class="next-button">
                                         <a class="scrol" href="#overnight-pet-section">Next<i
