@@ -86,7 +86,7 @@
                                 </div>
                                 <div class="last-head">
                                     <div class="feature-mamber clearfix">
-                                        <p>we are proud members of the following organization</p>
+                                        <p><?php echo get_field('first_section_text_1');?></p>
                                         <ul>
                                             <li><a href="#"><img class="img-responsive"
                                                         src='SJ/upl/gallery/large/20170610_141100.jpg' alt="" /></a>
@@ -106,7 +106,7 @@
                                         </ul>
                                     </div>
                                     <div class="feature-mamber feature-on clearfix">
-                                        <p>Feature On</p>
+                                        <p><?php echo get_field('first_section_text_2');?></p>
                                         <ul>
                                             <li><a href="#"><img class="img-responsive"
                                                         src='SJ/upl/gallery/large/20170610_172754.jpg' alt="" /></a>
