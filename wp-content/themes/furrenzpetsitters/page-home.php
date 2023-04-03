@@ -279,7 +279,7 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                         {
                             ?>
                         <div id="lang" class="change-language" lang="en">
-                            <a href="<?php echo get_site_url()?>/zh/"><img
+                            <a href="<?php echo get_site_url()?>"><img
                                     src="<?php echo get_site_url();?>/SJ/img/lang_en.png" alt="" /></a>
                         </div>
                         <?php
