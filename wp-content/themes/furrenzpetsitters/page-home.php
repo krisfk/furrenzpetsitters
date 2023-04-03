@@ -279,7 +279,8 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                         {
                             ?>
                         <div id="lang" class="change-language" lang="en">
-                            <a href="#"><img src="<?php echo get_site_url();?>/SJ/img/lang_en.png" alt="" /></a>
+                            <a href="<?php echo get_site_url()?>/zh/"><img
+                                    src="<?php echo get_site_url();?>/SJ/img/lang_en.png" alt="" /></a>
                         </div>
                         <?php
                         }
@@ -287,7 +288,8 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                         {
                             ?>
                         <div id="lang" class="change-language" lang="tc">
-                            <a href="#"><img src="<?php echo get_site_url();?>/SJ/img/lang_tc.png" alt="" /></a>
+                            <a href="<?php echo get_site_url()?>/en/"><img
+                                    src="<?php echo get_site_url();?>/SJ/img/lang_tc.png" alt="" /></a>
                         </div>
                         <?php
                         }
