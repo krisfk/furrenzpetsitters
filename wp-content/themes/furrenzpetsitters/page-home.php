@@ -80,7 +80,12 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                         src="<?php echo wp_get_attachment_image_src(get_field('first_section_img'),'full')[0];?>"
                                         alt="" />
                                     <div class="so-lang">
-                                        <div id="s0-lang"><span>中文</span></div>
+
+
+                                        <a href="#">
+                                            <div id="s0-lang"><span>中文</span></div>
+                                        </a>
+
                                         <a class="scrol" href="#about-section"> <img
                                                 src="<?php echo wp_get_attachment_image_src(get_field('first_section_scroll_down_img'),'full')[0];?>"
                                                 alt=""></a>
