@@ -82,7 +82,7 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                     <div class="so-lang">
 
 
-                                        <a href="#">
+                                        <a href="http://www.yahoo.com.hk" style="display:inline-block">
                                             <div id="s0-lang"><span>中文</span></div>
                                         </a>
 
