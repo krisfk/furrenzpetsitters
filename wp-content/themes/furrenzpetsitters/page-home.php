@@ -88,7 +88,7 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                         if( $curr_lang_flag =='en')
                         {
                             ?>
-                                        <a href="<?php echo get_site_url();?>" style="display:inline-block">
+                                        <a href="<?php echo get_site_url();?>" style="display:inline-block;margin:0;">
                                             <div id="s0-lang"><span>中文</span></div>
                                         </a>
                                         <?php
@@ -97,7 +97,8 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                         {
                             ?>
 
-                                        <a href="<?php echo get_site_url();?>/en" style="display:inline-block">
+                                        <a href="<?php echo get_site_url();?>/en"
+                                            style="display:inline-block;margin:0;">
                                             <div id="s0-lang"><span>English</span></div>
                                         </a><?php
                         }
