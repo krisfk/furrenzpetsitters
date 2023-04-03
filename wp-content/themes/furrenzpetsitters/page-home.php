@@ -269,9 +269,30 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                 </div>
                             </div>
                         </div>
+
+                        <?php
+                        
+                        ?>
+
+                        <?php
+                        if( $curr_lang_flag =='en')
+                        {
+                            ?>
                         <div id="lang" class="change-language" lang="en">
                             <a href="#"><img src="<?php echo get_site_url();?>/SJ/img/lang_en.png" alt="" /></a>
                         </div>
+                        <?php
+                        }
+                        else
+                        {
+                            ?>
+                        <div id="lang" class="change-language" lang="tc">
+                            <a href="#"><img src="<?php echo get_site_url();?>/SJ/img/lang_tc.png" alt="" /></a>
+                        </div>
+                        <?php
+                        }
+                        ?>
+
                     </div>
                 </div>
             </div>
