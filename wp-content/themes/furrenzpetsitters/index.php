@@ -46,6 +46,7 @@
 
 
 <body class="content-1">
+    <?php echo ICL_LANGUAGE_CODE;?>
 
     <body <?php body_class(); ?>>
         <?php wp_body_open(); ?>
