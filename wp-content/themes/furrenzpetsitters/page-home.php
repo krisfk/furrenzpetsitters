@@ -48,51 +48,51 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
 			<main id="main" class="site-main"> -->
 
 
-<body class="content-1">
+<!-- <body class="content-1"> -->
 
-    <body <?php body_class(); ?>>
-        <?php wp_body_open(); ?>
+<body <?php body_class(); ?>>
+    <?php wp_body_open(); ?>
 
-        <div id="xp-wrapper" class="xp-wrapper">
-            <section class="post">
-                <div id="header" class="header">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="top-head">
-                                    <div class="logo">
-                                        <a href="#"><img class="img-responsive"
-                                                src="<?php echo wp_get_attachment_image_src(get_field('main_logo'),'full')[0];?>"
-                                                alt="" /></a>
-                                    </div>
-                                    <div class="text-box">
+    <div id="xp-wrapper" class="xp-wrapper">
+        <section class="post">
+            <div id="header" class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="top-head">
+                                <div class="logo">
+                                    <a href="#"><img class="img-responsive"
+                                            src="<?php echo wp_get_attachment_image_src(get_field('main_logo'),'full')[0];?>"
+                                            alt="" /></a>
+                                </div>
+                                <div class="text-box">
 
-                                        <?php echo get_field('first_section_title');?>
-                                        <!-- <h1>Providing Hong Kong's Highest Quality <br> Professional Pet Care Services To
+                                    <?php echo get_field('first_section_title');?>
+                                    <!-- <h1>Providing Hong Kong's Highest Quality <br> Professional Pet Care Services To
                                             Our
                                             Furry Friends</h1>
                                         <p>為我們的毛毛朋友提供香港最高質素的專業寵物護理服務</p> -->
+                                </div>
+                            </div>
+                            <div class="mid-head">
+                                <div class="image-holder">
+                                    <img class="img-responsive"
+                                        src="<?php echo wp_get_attachment_image_src(get_field('first_section_img'),'full')[0];?>"
+                                        alt="" />
+                                    <div class="so-lang">
+                                        <div id="s0-lang"><span>中文</span></div>
+                                        <a class="scrol" href="#about-section"> <img
+                                                src="<?php echo wp_get_attachment_image_src(get_field('first_section_scroll_down_img'),'full')[0];?>"
+                                                alt=""></a>
                                     </div>
                                 </div>
-                                <div class="mid-head">
-                                    <div class="image-holder">
-                                        <img class="img-responsive"
-                                            src="<?php echo wp_get_attachment_image_src(get_field('first_section_img'),'full')[0];?>"
-                                            alt="" />
-                                        <div class="so-lang">
-                                            <div id="s0-lang"><span>中文</span></div>
-                                            <a class="scrol" href="#about-section"> <img
-                                                    src="<?php echo wp_get_attachment_image_src(get_field('first_section_scroll_down_img'),'full')[0];?>"
-                                                    alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="last-head">
-                                    <div class="feature-mamber clearfix">
-                                        <p><?php echo get_field('first_section_text_1');?></p>
-                                        <ul>
+                            </div>
+                            <div class="last-head">
+                                <div class="feature-mamber clearfix">
+                                    <p><?php echo get_field('first_section_text_1');?></p>
+                                    <ul>
 
-                                            <?php
+                                        <?php
                                       
                                         // Check rows existexists.
                                         if( have_rows('first_section_logos') )
@@ -102,16 +102,16 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                             {
                                                 the_row();
                                                 ?>
-                                            <li><a href="<?php echo get_sub_field('logo_link');?>"><img
-                                                        class="img-responsive"
-                                                        src='<?php echo wp_get_attachment_image_src(get_sub_field('first_section_logo'),'full')[0];?>'
-                                                        alt="" /></a>
-                                            </li>
-                                            <?php
+                                        <li><a href="<?php echo get_sub_field('logo_link');?>"><img
+                                                    class="img-responsive"
+                                                    src='<?php echo wp_get_attachment_image_src(get_sub_field('first_section_logo'),'full')[0];?>'
+                                                    alt="" /></a>
+                                        </li>
+                                        <?php
                                             }
                                         }
                                         ?>
-                                            <!-- <li><a href="#"><img class="img-responsive"
+                                        <!-- <li><a href="#"><img class="img-responsive"
                                                         src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_141100.jpg' alt="" /></a>
                                             </li>
                                             <li><a href="#"><img class="img-responsive"
@@ -126,113 +126,113 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                             <li><a href="#"><img class="img-responsive"
                                                         src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_142548.jpg' alt="" /></a>
                                             </li> -->
-                                        </ul>
-                                    </div>
-                                    <div class="feature-mamber feature-on clearfix">
-                                        <p><?php echo get_field('first_section_text_2');?></p>
-                                        <ul>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172754.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172758.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172806.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172813.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172837.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172854.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172857.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172901.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172905.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172912.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172923.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172929.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172935.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                            <li><a href="#"><img class="img-responsive"
-                                                        src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172941.jpg'
-                                                        alt="" /></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    </ul>
+                                </div>
+                                <div class="feature-mamber feature-on clearfix">
+                                    <p><?php echo get_field('first_section_text_2');?></p>
+                                    <ul>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172754.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172758.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172806.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172813.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172837.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172854.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172857.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172901.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172905.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172912.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172923.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172929.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172935.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                        <li><a href="#"><img class="img-responsive"
+                                                    src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20170610_172941.jpg'
+                                                    alt="" /></a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="socail-icon hidden-xs hidden-sm">
-                        <ul>
-                            <li><a class="social"
-                                    href="https://www.facebook.com/pages/Furrenz-Pet-Sitters/540414256013274"><img
-                                        src="<?php echo get_site_url();?>/SJ/img/icon_fb.png" alt="" /></a></li>
-                            <!-- <li><a class="social" href="https://plus.google.com/108119820827891516205"><img
-                                        src="<?php echo get_site_url();?>/SJ/img/icon_gp.png" alt="" /></a></li> -->
-                            <li><a class="social" href="http://www.instagram.com/furrenz"><img
-                                        src="<?php echo get_site_url();?>/SJ/img/icon_instagram.png" alt="" /></a></li>
-                            <li><a class="social" href="http://www.youtube.com/user/FurrenzPetSitters"><img
-                                        src="<?php echo get_site_url();?>/SJ/img/icon_yt.png" alt="" /></a></li>
-                            <!-- <li><a class="social" href="https://twitter.com/FurrenzPetSitHK"><img
-                                        src="<?php echo get_site_url();?>/SJ/img/icon_tw.png" alt="" /></a></li> -->
-                        </ul>
-                    </div>
                 </div>
-                <div class="desktop-version">
-                    <div class="navigation" data-spy="affix" data-offset-top="1330">
-                        <div class="inner-navigation">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="navbar navbar-default" role="navigation">
-                                            <div class="navbar-header">
-                                                <button type="button" class="navbar-toggle collapsed"
-                                                    data-toggle="collapse" data-target=".navbar-collapse">
-                                                    <span class="sr-only">Toggle navigation</span>
-                                                    <span class="icon-bar"></span>
-                                                    <span class="icon-bar"></span>
-                                                    <span class="icon-bar"></span>
-                                                </button>
-                                            </div>
-                                            <div id="menu" class="navbar-collapse collapse">
-                                                <?php 
+                <div class="socail-icon hidden-xs hidden-sm">
+                    <ul>
+                        <li><a class="social"
+                                href="https://www.facebook.com/pages/Furrenz-Pet-Sitters/540414256013274"><img
+                                    src="<?php echo get_site_url();?>/SJ/img/icon_fb.png" alt="" /></a></li>
+                        <!-- <li><a class="social" href="https://plus.google.com/108119820827891516205"><img
+                                        src="<?php echo get_site_url();?>/SJ/img/icon_gp.png" alt="" /></a></li> -->
+                        <li><a class="social" href="http://www.instagram.com/furrenz"><img
+                                    src="<?php echo get_site_url();?>/SJ/img/icon_instagram.png" alt="" /></a></li>
+                        <li><a class="social" href="http://www.youtube.com/user/FurrenzPetSitters"><img
+                                    src="<?php echo get_site_url();?>/SJ/img/icon_yt.png" alt="" /></a></li>
+                        <!-- <li><a class="social" href="https://twitter.com/FurrenzPetSitHK"><img
+                                        src="<?php echo get_site_url();?>/SJ/img/icon_tw.png" alt="" /></a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="desktop-version">
+                <div class="navigation" data-spy="affix" data-offset-top="1330">
+                    <div class="inner-navigation">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="navbar navbar-default" role="navigation">
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                                data-target=".navbar-collapse">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                        </div>
+                                        <div id="menu" class="navbar-collapse collapse">
+                                            <?php 
 
 
                                                 echo get_post_field('post_content', $curr_lang_flag =='en' ? 263:267);
 
                                                 ?>
-                                                <!-- <ul class="nav navbar-nav">
+                                            <!-- <ul class="nav navbar-nav">
                                                     <li><a class="scrol menu-en" href="#about-section">ABOUT US</a>
                                                         <font class="slipe">/</font>
                                                     </li>
@@ -262,128 +262,125 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                                     <li><a class="scrol menu-en" href="#contact-section">CONTACT</a>
                                                     </li>
                                                 </ul> -->
-                                            </div>
-                                            <!--/.nav-collapse -->
                                         </div>
-
+                                        <!--/.nav-collapse -->
                                     </div>
+
                                 </div>
                             </div>
-                            <div id="lang" class="change-language" lang="en">
-                                <a href="#"><img src="<?php echo get_site_url();?>/SJ/img/lang_en.png" alt="" /></a>
-                            </div>
+                        </div>
+                        <div id="lang" class="change-language" lang="en">
+                            <a href="#"><img src="<?php echo get_site_url();?>/SJ/img/lang_en.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
-                <div class="mobile-version">
-                    <div class="navigation">
-                        <div class="inner-navigation">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="navbar navbar-default" role="navigation">
-                                            <div class="navbar-header">
-                                                <button type="button" class="navbar-toggle collapsed"
-                                                    data-toggle="collapse" data-target=".navbar-collapse">
-                                                    <span class="sr-only">Toggle navigation</span>
-                                                    <span class="icon-bar"></span>
-                                                    <span class="icon-bar"></span>
-                                                    <span class="icon-bar"></span>
-                                                </button>
-                                            </div>
-                                            <div class="navbar-collapse collapse">
-                                                <ul class="nav navbar-nav">
-                                                    <li><a class="scrol" href="#about-section" data-toggle="collapse"
-                                                            data-target=".navbar-collapse">ABOUT US</a>
-                                                        <font class="slipe">/</font>
-                                                    </li>
-                                                    <li><a class="scrol" href="#media-section" data-toggle="collapse"
-                                                            data-target=".navbar-collapse">MEDIA & GALLERY</a>
-                                                        <font class="slipe">/</font>
-                                                    </li>
-                                                    <li><a class="scrol" href="#cat-sitting-section"
-                                                            data-toggle="collapse"
-                                                            data-target=".navbar-collapse">SERVICES &amp; RATES</a>
-                                                        <font class="slipe">/</font>
-                                                    </li>
-                                                    <li><a class="scrol" href="#faq-section" data-toggle="collapse"
-                                                            data-target=".navbar-collapse">FAQ</a>
-                                                        <font class="slipe">/</font>
-                                                    </li>
-                                                    <li><a class="scrol" href="#partnership-section"
-                                                            data-toggle="collapse"
-                                                            data-target=".navbar-collapse">PARTNERSHIP & PET
-                                                            RESOURCES</a>
-                                                        <font class="slipe">/</font>
-                                                    </li>
-                                                    <li><a class="scrol" href="#testimonial-section"
-                                                            data-toggle="collapse"
-                                                            data-target=".navbar-collapse">TESTIMONIALS</a>
-                                                        <font class="slipe">/</font>
-                                                    </li>
-                                                    <li><a class="scrol" href="#contact-section" data-toggle="collapse"
-                                                            data-target=".navbar-collapse">CONTACT</a>
-                                                    </li>
-                                                    <li>
-                                                        <ul class="list-inline mbl-sc">
-                                                            <li><a class="social"
-                                                                    href="https://www.facebook.com/pages/Furrenz-Pet-Sitters/540414256013274"><img
-                                                                        src="<?php echo get_site_url();?>/SJ/img/icon_fb.png"
-                                                                        alt="" /></a></li>
-                                                            <li><a class="social"
-                                                                    href="https://plus.google.com/108119820827891516205"><img
-                                                                        src="<?php echo get_site_url();?>/SJ/img/icon_gp.png"
-                                                                        alt="" /></a></li>
-                                                            <li><a class="social"
-                                                                    href="http://www.instagram.com/furrenz"><img
-                                                                        src="<?php echo get_site_url();?>/SJ/img/icon_instagram.png"
-                                                                        alt="" /></a>
-                                                            </li>
-                                                            <li><a class="social"
-                                                                    href="http://www.youtube.com/user/FurrenzPetSitters"><img
-                                                                        src="<?php echo get_site_url();?>/SJ/img/icon_yt.png"
-                                                                        alt="" /></a></li>
-                                                            <li><a class="social"
-                                                                    href="https://twitter.com/FurrenzPetSitHK"><img
-                                                                        src="<?php echo get_site_url();?>/SJ/img/icon_tw.png"
-                                                                        alt="" /></a></li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <!--/.nav-collapse -->
+            </div>
+            <div class="mobile-version">
+                <div class="navigation">
+                    <div class="inner-navigation">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="navbar navbar-default" role="navigation">
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                                data-target=".navbar-collapse">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
                                         </div>
-
+                                        <div class="navbar-collapse collapse">
+                                            <ul class="nav navbar-nav">
+                                                <li><a class="scrol" href="#about-section" data-toggle="collapse"
+                                                        data-target=".navbar-collapse">ABOUT US</a>
+                                                    <font class="slipe">/</font>
+                                                </li>
+                                                <li><a class="scrol" href="#media-section" data-toggle="collapse"
+                                                        data-target=".navbar-collapse">MEDIA & GALLERY</a>
+                                                    <font class="slipe">/</font>
+                                                </li>
+                                                <li><a class="scrol" href="#cat-sitting-section" data-toggle="collapse"
+                                                        data-target=".navbar-collapse">SERVICES &amp; RATES</a>
+                                                    <font class="slipe">/</font>
+                                                </li>
+                                                <li><a class="scrol" href="#faq-section" data-toggle="collapse"
+                                                        data-target=".navbar-collapse">FAQ</a>
+                                                    <font class="slipe">/</font>
+                                                </li>
+                                                <li><a class="scrol" href="#partnership-section" data-toggle="collapse"
+                                                        data-target=".navbar-collapse">PARTNERSHIP & PET
+                                                        RESOURCES</a>
+                                                    <font class="slipe">/</font>
+                                                </li>
+                                                <li><a class="scrol" href="#testimonial-section" data-toggle="collapse"
+                                                        data-target=".navbar-collapse">TESTIMONIALS</a>
+                                                    <font class="slipe">/</font>
+                                                </li>
+                                                <li><a class="scrol" href="#contact-section" data-toggle="collapse"
+                                                        data-target=".navbar-collapse">CONTACT</a>
+                                                </li>
+                                                <li>
+                                                    <ul class="list-inline mbl-sc">
+                                                        <li><a class="social"
+                                                                href="https://www.facebook.com/pages/Furrenz-Pet-Sitters/540414256013274"><img
+                                                                    src="<?php echo get_site_url();?>/SJ/img/icon_fb.png"
+                                                                    alt="" /></a></li>
+                                                        <li><a class="social"
+                                                                href="https://plus.google.com/108119820827891516205"><img
+                                                                    src="<?php echo get_site_url();?>/SJ/img/icon_gp.png"
+                                                                    alt="" /></a></li>
+                                                        <li><a class="social"
+                                                                href="http://www.instagram.com/furrenz"><img
+                                                                    src="<?php echo get_site_url();?>/SJ/img/icon_instagram.png"
+                                                                    alt="" /></a>
+                                                        </li>
+                                                        <li><a class="social"
+                                                                href="http://www.youtube.com/user/FurrenzPetSitters"><img
+                                                                    src="<?php echo get_site_url();?>/SJ/img/icon_yt.png"
+                                                                    alt="" /></a></li>
+                                                        <li><a class="social"
+                                                                href="https://twitter.com/FurrenzPetSitHK"><img
+                                                                    src="<?php echo get_site_url();?>/SJ/img/icon_tw.png"
+                                                                    alt="" /></a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--/.nav-collapse -->
                                     </div>
+
                                 </div>
                             </div>
-                            <div id="lang-mobile" class="change-language" lang="en">
-                                <a href="#"><img src="<?php echo get_site_url();?>/SJ/img/lang_en.png" alt="" /></a>
-                            </div>
+                        </div>
+                        <div id="lang-mobile" class="change-language" lang="en">
+                            <a href="#"><img src="<?php echo get_site_url();?>/SJ/img/lang_en.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="about-section" class="about-section post">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="image-holder">
-                                <img src="<?php echo wp_get_attachment_image_src(get_field('about_us_section_img_1'),'full')[0];?>"
-                                    alt="" />
-                            </div>
+            </div>
+        </section>
+        <section id="about-section" class="about-section post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="image-holder">
+                            <img src="<?php echo wp_get_attachment_image_src(get_field('about_us_section_img_1'),'full')[0];?>"
+                                alt="" />
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="about-contant">
-                                <div class="hedding">
-                                    <h2><?php echo get_field('about_us_section_title');?></h2>
-                                </div>
-                                <p class="desc">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="about-contant">
+                            <div class="hedding">
+                                <h2><?php echo get_field('about_us_section_title');?></h2>
+                            </div>
+                            <p class="desc">
 
-                                    <?php
+                                <?php
                                 echo get_field('about_us_section_description');
                                 ?>
-                                    <!-- Furrenz Pet Sitters’ mission is to provide the Highest Quality Professional Pet Care
+                                <!-- Furrenz Pet Sitters’ mission is to provide the Highest Quality Professional Pet Care
                                     Services in Hong Kong. We are proud members of Pet Sitters International (PSI),
                                     Professional United Pet Sitters (PUPS), and Association of Pet Sitting Excellence
                                     (APSE).<br />
@@ -412,23 +409,23 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                     <br />
                                     A Hong Kong Registered Company &#45; 54767480&#45;000&#45;08&#45;13&#45;0<br /> -->
 
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="image-holder">
-                                <img src="<?php echo wp_get_attachment_image_src(get_field('about_us_section_img_2'),'full')[0];?>"
-                                    alt="" />
-                            </div>
+                            </p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="about-team">
-                                <div class="about-team-inner">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="image-holder">
+                            <img src="<?php echo wp_get_attachment_image_src(get_field('about_us_section_img_2'),'full')[0];?>"
+                                alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="about-team">
+                            <div class="about-team-inner">
 
 
-                                    <?php
+                                <?php
                      
                      
                      if( have_rows('about_us_section_pet_sitters') )
@@ -438,57 +435,57 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                          {
                              the_row();
                              ?>
-                                    <div class="about-team-box clearfix">
-                                        <div class="image-holder">
-                                            <img src='<?php echo wp_get_attachment_image_src(get_sub_field('pet_sitter_photo'),'full')[0];?>'
-                                                alt="" />
-                                        </div>
-                                        <div class="text-box">
-                                            <h3>
-                                                <?php
+                                <div class="about-team-box clearfix">
+                                    <div class="image-holder">
+                                        <img src='<?php echo wp_get_attachment_image_src(get_sub_field('pet_sitter_photo'),'full')[0];?>'
+                                            alt="" />
+                                    </div>
+                                    <div class="text-box">
+                                        <h3>
+                                            <?php
                                                 echo get_sub_field('pet_sitter_name');
                                                 ?>
 
-                                            </h3>
-                                            <p>
-                                                <?php
+                                        </h3>
+                                        <p>
+                                            <?php
                                                 echo get_sub_field('pet_sitter_description');
                                                 ?>
 
 
-                                            </p>
-                                        </div>
+                                        </p>
                                     </div>
+                                </div>
 
-                                    <?php
+                                <?php
                          }
                      }
                      ?>
 
 
 
-                                </div>
                             </div>
-                            <div class="next-button">
-                                <a class="scrol" href="#media-section"><?php echo $next_page_txt;?><i
-                                        class="fa fa-caret-down"></i></a>
-                            </div>
+                        </div>
+                        <div class="next-button">
+                            <a class="scrol" href="#media-section"><?php echo $next_page_txt;?><i
+                                    class="fa fa-caret-down"></i></a>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="media-section" class="media-section post">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="media-sec-inner">
-                                <h2><?php echo get_field('media_section_title');?></h2>
-                                <div class="media-vedio">
-                                    <div class="media-vedio-inner">
-                                        <div class="row no-marrgin">
+            </div>
+        </section>
+        <section id="media-section" class="media-section post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="media-sec-inner">
+                            <h2><?php echo get_field('media_section_title');?></h2>
+                            <div class="media-vedio">
+                                <div class="media-vedio-inner">
+                                    <div class="row no-marrgin">
 
 
-                                            <?php
+                                        <?php
                                         
                                         $v_idx=1;
                                         if( have_rows('media_section_videos') )
@@ -501,28 +498,27 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                                 ?>
 
 
-                                            <div class="col-md-6 col-sm-6 col-xs-6">
-                                                <a href="#" data-toggle="modal"
-                                                    data-target="#modal-<?php echo $v_idx;?>"><img
-                                                        class="img-responsive"
-                                                        src="<?php echo wp_get_attachment_image_src(get_sub_field('video_thumbnail'),'full')[0];?>"
-                                                        alt="" /></a>
-                                            </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <a href="#" data-toggle="modal"
+                                                data-target="#modal-<?php echo $v_idx;?>"><img class="img-responsive"
+                                                    src="<?php echo wp_get_attachment_image_src(get_sub_field('video_thumbnail'),'full')[0];?>"
+                                                    alt="" /></a>
+                                        </div>
 
-                                            <div id="modal-<?php echo $v_idx;?>" class="modal fade modal-youtube"
-                                                tabindex="-1" role="dialog">
-                                                <div class="modal-dialog modal-lg" role="document">
-                                                    <div class="modal-content">
-                                                        <div class="embed-responsive embed-responsive-16by9">
-                                                            <iframe class="embed-responsive-item"
-                                                                src="<?php echo get_sub_field('video_url');?>"
-                                                                frameborder="0" allowfullscreen></iframe>
-                                                        </div>
+                                        <div id="modal-<?php echo $v_idx;?>" class="modal fade modal-youtube"
+                                            tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="embed-responsive embed-responsive-16by9">
+                                                        <iframe class="embed-responsive-item"
+                                                            src="<?php echo get_sub_field('video_url');?>"
+                                                            frameborder="0" allowfullscreen></iframe>
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
 
-                                            <?php
+                                        <?php
                                                 $v_idx++;
                                             }
                                         }
@@ -532,7 +528,7 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
 
 
 
-                                            <!-- <div id="modal-14" class="modal fade modal-youtube" tabindex="-1"
+                                        <!-- <div id="modal-14" class="modal fade modal-youtube" tabindex="-1"
                                                 role="dialog">
                                                 <div class="modal-dialog modal-lg" role="document">
                                                     <div class="modal-content">
@@ -582,7 +578,7 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                             </div> -->
 
 
-                                            <!-- <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <!-- <div class="col-md-6 col-sm-6 col-xs-6">
                                                 <a href="#" data-toggle="modal" data-target="#modal-14"><img
                                                         class="img-responsive"
                                                         src="http://img.youtube.com/vi/8ONLfpPO2as/0.jpg" alt="" /></a>
@@ -603,30 +599,30 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                                         src="http://img.youtube.com/vi/p-uvV0JJtZ8/0.jpg" alt="" /></a>
                                             </div> -->
 
-                                        </div>
                                     </div>
                                 </div>
-                                <div class="next-button">
-                                    <a class="scrol" href="#gallry-section"><?php echo $next_page_txt;?><i
-                                            class="fa fa-caret-down"></i></a>
-                                </div>
+                            </div>
+                            <div class="next-button">
+                                <a class="scrol" href="#gallry-section"><?php echo $next_page_txt;?><i
+                                        class="fa fa-caret-down"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="gallry-section" class="gallry-section post">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="gallry-sec-inner">
-                                <h2>Gallery</h2>
-                                <div class="media-vedio">
-                                    <div class="media-vedio-inner media-gallery-inner">
-                                        <div class="demo-gallery">
-                                            <div id="lightgallery" class="row list-unstyled">
+            </div>
+        </section>
+        <section id="gallry-section" class="gallry-section post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="gallry-sec-inner">
+                            <h2>Gallery</h2>
+                            <div class="media-vedio">
+                                <div class="media-vedio-inner media-gallery-inner">
+                                    <div class="demo-gallery">
+                                        <div id="lightgallery" class="row list-unstyled">
 
-                                                <?php
+                                            <?php
 
 if( have_rows('gallery_section_images') )
 {
@@ -636,20 +632,20 @@ if( have_rows('gallery_section_images') )
         the_row();
         ?>
 
-                                                <div class='col-md-4 col-sm-4 col-xs-6'
-                                                    data-responsive='<?php echo wp_get_attachment_image_src(get_sub_field('gallery_section_image'),'full')[0];?> 800'
-                                                    data-src='<?php echo wp_get_attachment_image_src(get_sub_field('gallery_section_image'),'full')[0];?>'>
-                                                    <a href='javascript:void(0);'><img class='img-responsive'
-                                                            src='<?php echo wp_get_attachment_image_src(get_sub_field('gallery_section_image'),'full')[0];?>'
-                                                            alt='' /></a>
-                                                </div>
-                                                <?php
+                                            <div class='col-md-4 col-sm-4 col-xs-6'
+                                                data-responsive='<?php echo wp_get_attachment_image_src(get_sub_field('gallery_section_image'),'full')[0];?> 800'
+                                                data-src='<?php echo wp_get_attachment_image_src(get_sub_field('gallery_section_image'),'full')[0];?>'>
+                                                <a href='javascript:void(0);'><img class='img-responsive'
+                                                        src='<?php echo wp_get_attachment_image_src(get_sub_field('gallery_section_image'),'full')[0];?>'
+                                                        alt='' /></a>
+                                            </div>
+                                            <?php
     }
 }
 ?>
 
 
-                                                <!-- <div class='col-md-4 col-sm-4 col-xs-6'
+                                            <!-- <div class='col-md-4 col-sm-4 col-xs-6'
                                                     data-responsive='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230940.jpg 800'
                                                     data-src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180426_230940.jpg'><a
                                                         href='javascript:void(0);'><img class='img-responsive'
@@ -715,41 +711,41 @@ if( have_rows('gallery_section_images') )
                                                         href='javascript:void(0);'><img class='img-responsive'
                                                             src='<?php echo get_site_url();?>/SJ/upl/gallery/large/20180120_152806.jpg' alt='' /></a>
                                                 </div> -->
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="next-button">
-                                    <a class="scrol" href="#cat-sitting-section"><?php echo $next_page_txt;?><i
-                                            class="fa fa-caret-down"></i></a>
-                                </div>
+                            </div>
+                            <div class="next-button">
+                                <a class="scrol" href="#cat-sitting-section"><?php echo $next_page_txt;?><i
+                                        class="fa fa-caret-down"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="cat-sitting-section" class="cat-sitting-section post">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="cat-sitting-section-inner">
-                                <div class="cat-sitting-colum">
-                                    <div class="hedding">
-                                        <h2>
-                                            <!-- cat sitting -->
-                                            <?php echo get_field('cat_sitting_section_title');?>
-                                        </h2>
-                                    </div>
-                                    <div class="cat-setting clearfix">
-                                        <h3>
-                                            <!-- Cat Sitting services included -->
-                                            <?php echo get_field('cat_sitting_section_subtitle_1');?>
+            </div>
+        </section>
+        <section id="cat-sitting-section" class="cat-sitting-section post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="cat-sitting-section-inner">
+                            <div class="cat-sitting-colum">
+                                <div class="hedding">
+                                    <h2>
+                                        <!-- cat sitting -->
+                                        <?php echo get_field('cat_sitting_section_title');?>
+                                    </h2>
+                                </div>
+                                <div class="cat-setting clearfix">
+                                    <h3>
+                                        <!-- Cat Sitting services included -->
+                                        <?php echo get_field('cat_sitting_section_subtitle_1');?>
 
 
-                                        </h3>
-                                        <?php echo get_field('cat_sitting_section_content_1');?>
+                                    </h3>
+                                    <?php echo get_field('cat_sitting_section_content_1');?>
 
-                                        <!-- <ul>
+                                    <!-- <ul>
                                             <li>Feeding, changing water</li>
                                             <li>Daily email updates with pictures of cat</li>
                                             <li>Cat Sitter play time with cat</li>
@@ -758,18 +754,18 @@ if( have_rows('gallery_section_images') )
                                             <li>Water plants / pick up mail /
                                                 take out garbage<span>Complimentary</span></li>
                                         </ul> -->
-                                    </div>
-                                    <div class="cat-pricing">
-                                        <h3>
-                                            <!-- Pricing -->
-                                            <?php echo get_field('cat_sitting_section_subtitle_2');?>
+                                </div>
+                                <div class="cat-pricing">
+                                    <h3>
+                                        <!-- Pricing -->
+                                        <?php echo get_field('cat_sitting_section_subtitle_2');?>
 
-                                        </h3>
+                                    </h3>
 
-                                        <?php echo get_field('cat_sitting_section_content_2');?>
+                                    <?php echo get_field('cat_sitting_section_content_2');?>
 
 
-                                        <!-- <ul>
+                                    <!-- <ul>
                                             <li>30 min - $210</li>
                                             <li>45 min - $230</li>
                                             <li>60 min - $250</li>
@@ -781,11 +777,11 @@ if( have_rows('gallery_section_images') )
                                             <li>Charge is for Cat Sitting up to 2 cats, each additional cat incur $40
                                             </li>
                                         </ul> -->
-                                    </div>
-                                    <div class="cat-note">
+                                </div>
+                                <div class="cat-note">
 
-                                        <?php echo get_field('cat_sitting_section_note');?>
-                                        <!-- <span>Note</span>
+                                    <?php echo get_field('cat_sitting_section_note');?>
+                                    <!-- <span>Note</span>
                                         <p>
                                             - Additional 50% day charge for general public holiday Pet Care Services
                                             (exludes normal weekends)<br>
@@ -794,40 +790,40 @@ if( have_rows('gallery_section_images') )
                                             difference
                                         </p> -->
 
-                                    </div>
-                                    <div class="next-button">
-                                        <a class="scrol" href="#dog-walking-section"><?php echo $next_page_txt;?><i
-                                                class="fa fa-caret-down"></i></a>
-                                    </div>
+                                </div>
+                                <div class="next-button">
+                                    <a class="scrol" href="#dog-walking-section"><?php echo $next_page_txt;?><i
+                                            class="fa fa-caret-down"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="dog-walking-section" class="cat-sitting-section dog-walking-section post">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="cat-sitting-section-inner">
-                                <div class="cat-sitting-colum">
-                                    <div class="hedding">
-                                        <h2>
-                                            <?php echo get_field('dog_walking_sitting_section_title');?>
-                                            <!-- Dog Walking / Sitting -->
+            </div>
+        </section>
+        <section id="dog-walking-section" class="cat-sitting-section dog-walking-section post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="cat-sitting-section-inner">
+                            <div class="cat-sitting-colum">
+                                <div class="hedding">
+                                    <h2>
+                                        <?php echo get_field('dog_walking_sitting_section_title');?>
+                                        <!-- Dog Walking / Sitting -->
 
-                                        </h2>
-                                    </div>
-                                    <div class="cat-setting clearfix">
-                                        <h3>
-                                            <?php echo get_field('dog_walking_sitting_section_subtitle_1');?>
-                                            <!-- Dog Walking / Dog Sitting services included -->
-                                        </h3>
+                                    </h2>
+                                </div>
+                                <div class="cat-setting clearfix">
+                                    <h3>
+                                        <?php echo get_field('dog_walking_sitting_section_subtitle_1');?>
+                                        <!-- Dog Walking / Dog Sitting services included -->
+                                    </h3>
 
-                                        <?php echo get_field('dog_walking_sitting_section_content_1');?>
+                                    <?php echo get_field('dog_walking_sitting_section_content_1');?>
 
 
-                                        <!-- <ul>
+                                    <!-- <ul>
                                             <li>Dog Walker / Dog Sitter exclusive private walk/playtime</li>
                                             <li>Daily email updates with pictures of dog</li>
                                             <li>Towel rub if wet/muddy</li>
@@ -837,17 +833,17 @@ if( have_rows('gallery_section_images') )
                                                 take out garbage<span>Complimentary</span></li>
                                             <li>Dog poop cleanup</li>
                                         </ul> -->
-                                    </div>
-                                    <div class="cat-pricing">
-                                        <h3>
-                                            <?php echo get_field('dog_walking_sitting_section_subtitle_2');?>
+                                </div>
+                                <div class="cat-pricing">
+                                    <h3>
+                                        <?php echo get_field('dog_walking_sitting_section_subtitle_2');?>
 
-                                            <!-- Pricing -->
-                                        </h3>
-                                        <?php
+                                        <!-- Pricing -->
+                                    </h3>
+                                    <?php
                                         
                                         echo get_field('dog_walking_sitting_section_content_2');?>
-                                        <!-- <ul>
+                                    <!-- <ul>
                                             <li>15 min potty breaks - $180</li>
                                             <li>30 min - $220</li>
                                             <li>45 min - $240</li>
@@ -860,11 +856,11 @@ if( have_rows('gallery_section_images') )
                                             <li>Charge is for Dog Sitting up to 2 dogs, each additional dog incur $80
                                             </li>
                                         </ul> -->
-                                    </div>
-                                    <div class="cat-note">
+                                </div>
+                                <div class="cat-note">
 
-                                        <?php echo get_field('dog_walking_sitting_section_note');?>
-                                        <!-- <span>Note</span>
+                                    <?php echo get_field('dog_walking_sitting_section_note');?>
+                                    <!-- <span>Note</span>
                                         <p>
                                             - Additional 50% day charge for general public holiday Pet Sitting services
                                             (exludes normal weekends)<BR>
@@ -872,52 +868,52 @@ if( have_rows('gallery_section_images') )
                                             charge
                                             difference <BR>
                                         </p> -->
-                                    </div>
-                                    <div class="next-button">
-                                        <a class="scrol" href="#overnight-pet-section"><?php echo $next_page_txt;?><i
-                                                class="fa fa-caret-down"></i></a>
-                                    </div>
+                                </div>
+                                <div class="next-button">
+                                    <a class="scrol" href="#overnight-pet-section"><?php echo $next_page_txt;?><i
+                                            class="fa fa-caret-down"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="overnight-pet-section" class="overnight-pet-section post">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="over-night-inner clearfix">
-                                <div class="over-night-colum">
-                                    <div class="hedding">
-                                        <h2>
-                                            <?php
+            </div>
+        </section>
+        <section id="overnight-pet-section" class="overnight-pet-section post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="over-night-inner clearfix">
+                            <div class="over-night-colum">
+                                <div class="hedding">
+                                    <h2>
+                                        <?php
                                             echo get_field('overnight_pet_sitting_section_title');
                                             ?>
-                                            <!-- overnight pet sitting -->
-                                        </h2>
-                                    </div>
-                                    <div class="text-box">
-                                        <div class="text-contant">
-                                            <p>
+                                        <!-- overnight pet sitting -->
+                                    </h2>
+                                </div>
+                                <div class="text-box">
+                                    <div class="text-contant">
+                                        <p>
 
-                                                <?php echo get_field('overnight_pet_sitting_section_note_1');?>
+                                            <?php echo get_field('overnight_pet_sitting_section_note_1');?>
 
 
-                                                <!-- (Note that we only offer overnight pet sitting service in your home, and
+                                            <!-- (Note that we only offer overnight pet sitting service in your home, and
                                                 not
                                                 in a hotel facility) -->
-                                            </p>
-                                        </div>
-                                        <div class="cat-setting clearfix">
-                                            <h3>
-                                                <?php echo get_field('overnight_pet_sitting_section_subtitle_1');?>
+                                        </p>
+                                    </div>
+                                    <div class="cat-setting clearfix">
+                                        <h3>
+                                            <?php echo get_field('overnight_pet_sitting_section_subtitle_1');?>
 
-                                                <!-- Overnight Pet Sitting services included -->
-                                            </h3>
-                                            <?php echo get_field('overnight_pet_sitting_section_content_1');?>
+                                            <!-- Overnight Pet Sitting services included -->
+                                        </h3>
+                                        <?php echo get_field('overnight_pet_sitting_section_content_1');?>
 
-                                            <!-- <ul>
+                                        <!-- <ul>
                                                 <li>Daily Dog Walking</li>
                                                 <li>Dog poop clean up</li>
                                                 <li>Pet Sitter play time with dog / cat</li>
@@ -925,46 +921,46 @@ if( have_rows('gallery_section_images') )
                                                 <li>Feed & fresh water</li>
                                                 <li>Constant companion and lots of TLC</li>
                                             </ul> -->
-                                        </div>
-                                        <div class="cat-pricing">
-                                            <h3>
-                                                <?php echo get_field('overnight_pet_sitting_section_subtitle_2');?>
+                                    </div>
+                                    <div class="cat-pricing">
+                                        <h3>
+                                            <?php echo get_field('overnight_pet_sitting_section_subtitle_2');?>
 
-                                                <!-- Pricing -->
-                                            </h3>
-                                            <?php echo get_field('overnight_pet_sitting_section_content_2');?>
+                                            <!-- Pricing -->
+                                        </h3>
+                                        <?php echo get_field('overnight_pet_sitting_section_content_2');?>
 
 
-                                            <!-- <ul>
+                                        <!-- <ul>
                                                 <li>Less than 12 hours (e.g. dinner to breakfast) - $700</li>
                                                 <li>More than 12 hours (e.g. dinner to lunch) - $800</li>
                                             </ul> -->
-                                        </div>
-                                        <div class="cat-note">
-                                            <?php echo get_field('overnight_pet_sitting_section_note_2');?>
+                                    </div>
+                                    <div class="cat-note">
+                                        <?php echo get_field('overnight_pet_sitting_section_note_2');?>
 
-                                            <!-- <span>Note</span>
+                                        <!-- <span>Note</span>
                                             <p>
                                                 - Additional 50% day charge for general public holiday Dog Sitting / Cat
                                                 Sitting (exludes normal weekends)<BR>
                                                 - Travel surcharge - no charge if total return cost under $20, if more
                                                 charge difference <BR>
                                             </p> -->
-                                        </div>
-                                        <div class="next-button">
-                                            <a class="scrol" href="#small-animal-section"><?php echo $next_page_txt;?><i
-                                                    class="fa fa-caret-down"></i></a>
-                                        </div>
+                                    </div>
+                                    <div class="next-button">
+                                        <a class="scrol" href="#small-animal-section"><?php echo $next_page_txt;?><i
+                                                class="fa fa-caret-down"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
 
-            <!-- <section id="beauty-pet-section" class=" beauty-pet-section post">
+        <!-- <section id="beauty-pet-section" class=" beauty-pet-section post">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -1008,31 +1004,31 @@ if( have_rows('gallery_section_images') )
 
 
 
-            <section id="small-animal-section" class="small-animal-section post">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="small-animal-inner clearfix">
-                                <div class="small-animal-colum">
-                                    <div class="hedding">
-                                        <h2>
-                                            <?php echo get_field('small_animal_section_title');?>
+        <section id="small-animal-section" class="small-animal-section post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="small-animal-inner clearfix">
+                            <div class="small-animal-colum">
+                                <div class="hedding">
+                                    <h2>
+                                        <?php echo get_field('small_animal_section_title');?>
 
-                                            <!-- Small Animal -->
+                                        <!-- Small Animal -->
 
-                                        </h2>
-                                    </div>
-                                    <div class="text-box">
-                                        <div class="cat-setting clearfix">
-                                            <h3>
-                                                <!-- Small Animal Sitting services included -->
-                                                <?php echo get_field('small_animal_section_subtitle_1');?>
+                                    </h2>
+                                </div>
+                                <div class="text-box">
+                                    <div class="cat-setting clearfix">
+                                        <h3>
+                                            <!-- Small Animal Sitting services included -->
+                                            <?php echo get_field('small_animal_section_subtitle_1');?>
 
-                                            </h3>
-                                            <?php echo get_field('small_animal_section_content_1');?>
+                                        </h3>
+                                        <?php echo get_field('small_animal_section_content_1');?>
 
 
-                                            <!-- <ul>
+                                        <!-- <ul>
                                                 <li>Feeding, changing water</li>
                                                 <li>Animal medication <span>Complimentary</span></li>
                                                 <li>Pet Sitter play time with pet</li>
@@ -1040,25 +1036,25 @@ if( have_rows('gallery_section_images') )
                                                     take out garbage <span>Complimentary</span></li>
                                                 <li>Daily email updates with pictures of pet</li>
                                             </ul> -->
-                                        </div>
-                                        <div class="cat-pricing">
-                                            <h3>
-                                                <!-- Pricing -->
-                                                <?php echo get_field('small_animal_section_subtitle_2');?>
+                                    </div>
+                                    <div class="cat-pricing">
+                                        <h3>
+                                            <!-- Pricing -->
+                                            <?php echo get_field('small_animal_section_subtitle_2');?>
 
-                                            </h3>
-                                            <?php echo get_field('small_animal_section_content_2');?>
+                                        </h3>
+                                        <?php echo get_field('small_animal_section_content_2');?>
 
 
-                                            <!-- <ul>
+                                        <!-- <ul>
                                                 <li>30 min - $160</li>
                                             </ul> -->
-                                        </div>
-                                        <div class="cat-note">
+                                    </div>
+                                    <div class="cat-note">
 
-                                            <?php echo get_field('small_animal_section_note');?>
+                                        <?php echo get_field('small_animal_section_note');?>
 
-                                            <!-- <span>Note</span>
+                                        <!-- <span>Note</span>
                                             <p>
                                                 - Additional 50% day charge for general public holiday Pet Sitting
                                                 (exludes
@@ -1066,33 +1062,33 @@ if( have_rows('gallery_section_images') )
                                                 - Travel surcharge - no charge if total return cost under $20, if more
                                                 charge difference <BR>
                                             </p> -->
-                                        </div>
-                                        <div class="next-button">
-                                            <a class="scrol" href="#faq-section"><?php echo $next_page_txt;?><i
-                                                    class="fa fa-caret-down"></i></a>
-                                        </div>
+                                    </div>
+                                    <div class="next-button">
+                                        <a class="scrol" href="#faq-section"><?php echo $next_page_txt;?><i
+                                                class="fa fa-caret-down"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="faq-section" class="faq-section post">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="faq-inner">
-                                <div class="faq-colum">
-                                    <h2>
-                                        <?php echo get_field('faq_section_title');?>
-                                        <!-- faq -->
+            </div>
+        </section>
+        <section id="faq-section" class="faq-section post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="faq-inner">
+                            <div class="faq-colum">
+                                <h2>
+                                    <?php echo get_field('faq_section_title');?>
+                                    <!-- faq -->
 
-                                    </h2>
-                                    <div class="faq-colum-question">
-                                        <div class="faq-colum-question-inner">
-                                            <ul>
-                                                <?php
+                                </h2>
+                                <div class="faq-colum-question">
+                                    <div class="faq-colum-question-inner">
+                                        <ul>
+                                            <?php
                                                 
                                                 $q_idx=1;
                                                 if( have_rows('faq_section_content') )
@@ -1103,16 +1099,16 @@ if( have_rows('gallery_section_images') )
                                                         the_row();
                                                     ?>
 
-                                                <li id='id<?php echo  $q_idx;?>'><a href='javascript:void(0);'>
-                                                        <?php echo get_sub_field('question');?></a></li>
-                                                <?php
+                                            <li id='id<?php echo  $q_idx;?>'><a href='javascript:void(0);'>
+                                                    <?php echo get_sub_field('question');?></a></li>
+                                            <?php
                                                         $q_idx++;
 
                                                     }
                                                 }
 
                                                 ?>
-                                                <!-- <li id='id1'><a href='javascript:void(0);'>So how does Pet Sitting
+                                            <!-- <li id='id1'><a href='javascript:void(0);'>So how does Pet Sitting
                                                         work?</a></li>
                                                 <li id='id2'><a href='javascript:void(0);'>How do I know for sure that
                                                         my pet will be ok
@@ -1141,11 +1137,11 @@ if( have_rows('gallery_section_images') )
                                                         of plans?</a></li>
                                                 <li id='id10'><a href='javascript:void(0);'>How do I pay?</a></li> -->
 
-                                            </ul>
-                                        </div>
-                                        <div class="faq-colum-ans-main">
+                                        </ul>
+                                    </div>
+                                    <div class="faq-colum-ans-main">
 
-                                            <?php
+                                        <?php
                                                 
                                                 $q_idx=1;
                                                 if( have_rows('faq_section_content') )
@@ -1156,23 +1152,22 @@ if( have_rows('gallery_section_images') )
                                                         the_row();
                                                     ?>
 
-                                            <div id='ans<?php echo $q_idx;?>' class='ans'>
-                                                <div class='close-icon'><a class='close-sec'
-                                                        href='javascript:void(0);'><img
-                                                            src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
-                                                            alt='' /></a></div>
-                                                <div class='faq-answer'>
-                                                    <div class='faq-answer-heding'>
-                                                        <h4> <?php echo get_sub_field('question');?></h4>
-                                                    </div>
-                                                    <div class='faq-answer-innner'>
-                                                        <p>
-                                                            <?php echo get_sub_field('answer');?>
-                                                        </p>
-                                                    </div>
+                                        <div id='ans<?php echo $q_idx;?>' class='ans'>
+                                            <div class='close-icon'><a class='close-sec' href='javascript:void(0);'><img
+                                                        src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
+                                                        alt='' /></a></div>
+                                            <div class='faq-answer'>
+                                                <div class='faq-answer-heding'>
+                                                    <h4> <?php echo get_sub_field('question');?></h4>
+                                                </div>
+                                                <div class='faq-answer-innner'>
+                                                    <p>
+                                                        <?php echo get_sub_field('answer');?>
+                                                    </p>
                                                 </div>
                                             </div>
-                                            <?php
+                                        </div>
+                                        <?php
                                                         $q_idx++;
 
                                                     }
@@ -1181,7 +1176,7 @@ if( have_rows('gallery_section_images') )
                                                 ?>
 
 
-                                            <!-- <div id='ans2' class='ans'>
+                                        <!-- <div id='ans2' class='ans'>
                                                 <div class='close-icon'><a class='close-sec'
                                                         href='javascript:void(0);'><img src='<?php echo get_site_url();?>/SJ/images/close-icon.png'
                                                             alt='' /></a></div>
@@ -1385,33 +1380,33 @@ if( have_rows('gallery_section_images') )
                                                     </div>
                                                 </div>
                                             </div> -->
-                                        </div>
                                     </div>
-                                    <div class="next-button">
-                                        <a class="scrol" href="#partnership-section"><?php echo $next_page_txt;?><i
-                                                class="fa fa-caret-down"></i></a>
-                                    </div>
+                                </div>
+                                <div class="next-button">
+                                    <a class="scrol" href="#partnership-section"><?php echo $next_page_txt;?><i
+                                            class="fa fa-caret-down"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="partnership-section" class="partnership-section post">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="partnership-inner">
-                                <h2>
+            </div>
+        </section>
+        <section id="partnership-section" class="partnership-section post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="partnership-inner">
+                            <h2>
 
-                                    <?php echo get_field('partnership_pet_resources_section_title');?>
-                                    <!-- partnership & pet resources -->
+                                <?php echo get_field('partnership_pet_resources_section_title');?>
+                                <!-- partnership & pet resources -->
 
-                                </h2>
-                                <div class="partnership-colum">
-                                    <div class="partnership-colum-inner clearfix">
+                            </h2>
+                            <div class="partnership-colum">
+                                <div class="partnership-colum-inner clearfix">
 
-                                        <?php
+                                    <?php
                                     
                                     if( have_rows('partnership_pet_resources_section_partners') )
                                     {
@@ -1420,28 +1415,28 @@ if( have_rows('gallery_section_images') )
                                         {
                                             the_row();
                                             ?>
-                                        <div class='partnership-box clearfix'>
-                                            <div class='image-holder'>
-                                                <img class='img-responsive'
-                                                    src='<?php echo wp_get_attachment_image_src(get_sub_field('logo'),'full')[0];?>'
-                                                    alt='' />
-                                            </div>
-                                            <div class='text-box'>
-                                                <h3><?php echo get_sub_field('partner_name');?></h3>
-                                                <span><?php echo get_sub_field('tel');?></span>
-                                                <a href='<?php echo get_sub_field('url');?>'
-                                                    target='_blank"'><?php echo get_sub_field('url');?></a>
-                                                <p><?php echo get_sub_field('description');?></p>
-                                            </div>
+                                    <div class='partnership-box clearfix'>
+                                        <div class='image-holder'>
+                                            <img class='img-responsive'
+                                                src='<?php echo wp_get_attachment_image_src(get_sub_field('logo'),'full')[0];?>'
+                                                alt='' />
                                         </div>
+                                        <div class='text-box'>
+                                            <h3><?php echo get_sub_field('partner_name');?></h3>
+                                            <span><?php echo get_sub_field('tel');?></span>
+                                            <a href='<?php echo get_sub_field('url');?>'
+                                                target='_blank"'><?php echo get_sub_field('url');?></a>
+                                            <p><?php echo get_sub_field('description');?></p>
+                                        </div>
+                                    </div>
 
-                                        <?php
+                                    <?php
                                         }
                                     }
                                     
                                     ?>
 
-                                        <!-- <div class='partnership-box clearfix'>
+                                    <!-- <div class='partnership-box clearfix'>
                                             <div class='image-holder'>
                                                 <img class='img-responsive' src='<?php echo get_site_url();?>/SJ/upl/partner/20131209_173647.jpg'
                                                     alt='' />
@@ -1517,29 +1512,29 @@ if( have_rows('gallery_section_images') )
                                                 </p>
                                             </div>
                                         </div> -->
-                                    </div>
                                 </div>
-                                <div class="next-button">
-                                    <a class="scrol" href="#testimonial-section"><?php echo $next_page_txt;?><i
-                                            class="fa fa-caret-down"></i></a>
-                                </div>
+                            </div>
+                            <div class="next-button">
+                                <a class="scrol" href="#testimonial-section"><?php echo $next_page_txt;?><i
+                                        class="fa fa-caret-down"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="testimonial-section" class="testimonial-section post">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="testimonial-inner">
-                                <h2>
-                                    <?php echo get_field('testimonials_section_title');?>
-                                    <!-- testimonials -->
-                                </h2>
-                                <div class="testimonial-column">
+            </div>
+        </section>
+        <section id="testimonial-section" class="testimonial-section post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="testimonial-inner">
+                            <h2>
+                                <?php echo get_field('testimonials_section_title');?>
+                                <!-- testimonials -->
+                            </h2>
+                            <div class="testimonial-column">
 
-                                    <?php
+                                <?php
                                 
                                 if( have_rows('testimonials_section_customers') )
                                 {
@@ -1550,19 +1545,19 @@ if( have_rows('gallery_section_images') )
                                         ?>
 
 
-                                    <div class='testimonial-box'>
-                                        <p>
-                                            <?php
+                                <div class='testimonial-box'>
+                                    <p>
+                                        <?php
                                             echo get_sub_field('customer_saying');
                                             ?>
-                                        </p>
-                                        <h4>
-                                            <?php
+                                    </p>
+                                    <h4>
+                                        <?php
                                             echo get_sub_field('customer_name');
                                             ?></h4>
-                                    </div>
+                                </div>
 
-                                    <?php
+                                <?php
                                     }
                                 }
                                 
@@ -1571,7 +1566,7 @@ if( have_rows('gallery_section_images') )
 
 
 
-                                    <!-- <div class='testimonial-box'>
+                                <!-- <div class='testimonial-box'>
                                         <p>We felt our two bunnies were in professional and caring hands during our
                                             holiday.
                                             The updates and pictures made us happy every evening. It will be easy to
@@ -1717,88 +1712,88 @@ if( have_rows('gallery_section_images') )
                                         </p>
                                         <h4>Dominique</h4>
                                     </div> -->
-                                </div>
-                                <div class="next-button">
-                                    <a class="scrol" href="#contact-section"><?php echo $next_page_txt;?><i
-                                            class="fa fa-caret-down"></i></a>
-                                </div>
+                            </div>
+                            <div class="next-button">
+                                <a class="scrol" href="#contact-section"><?php echo $next_page_txt;?><i
+                                        class="fa fa-caret-down"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="contact-section" class="contact-section post">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="contact-inner">
-                                <h2>
+            </div>
+        </section>
+        <section id="contact-section" class="contact-section post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="contact-inner">
+                            <h2>
 
-                                    <!-- Contact -->
-                                    <?php echo get_field('contact_section_title');?>
-
-
-                                </h2>
-                                <div class="contact-info">
-                                    <div class="contact-info-contant">
+                                <!-- Contact -->
+                                <?php echo get_field('contact_section_title');?>
 
 
-                                        <?php echo get_field('contact_section_content');?>
-                                        <!-- <h3>KEEP IN TOUCH!</h3>
+                            </h2>
+                            <div class="contact-info">
+                                <div class="contact-info-contant">
+
+
+                                    <?php echo get_field('contact_section_content');?>
+                                    <!-- <h3>KEEP IN TOUCH!</h3>
                                         <p>Feel free to send us an email, or look us up on Facebook: Furrenz Pet
                                             Sitters. We
                                             are looking forward to hearing from you.</p>
                                         <p>Interested in joining us as a pet sitter or dog walker? Please send us an
                                             email
                                             with your cv at career@furrenzpetsitters.com.</p> -->
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="contact-info-inner">
+                                            <div class="image-holder">
+
+                                                <img class="img-responsive"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('contact_section_icon_1'),'full')[0];?>"
+                                                    alt="" />
+                                            </div>
+                                            <div class="text-box">
+                                                <?php echo get_field('contact_section_icon_content_1');?>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-4 col-sm-4 col-xs-4">
-                                            <div class="contact-info-inner">
-                                                <div class="image-holder">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="contact-info-inner">
+                                            <div class="image-holder">
+                                                <img class="img-responsive"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('contact_section_icon_2'),'full')[0];?>"
+                                                    alt="" />
+                                            </div>
+                                            <div class="text-box">
+                                                <?php echo get_field('contact_section_icon_content_2');?>
 
-                                                    <img class="img-responsive"
-                                                        src="<?php echo wp_get_attachment_image_src(get_field('contact_section_icon_1'),'full')[0];?>"
-                                                        alt="" />
-                                                </div>
-                                                <div class="text-box">
-                                                    <?php echo get_field('contact_section_icon_content_1');?>
-                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 col-sm-4 col-xs-4">
-                                            <div class="contact-info-inner">
-                                                <div class="image-holder">
-                                                    <img class="img-responsive"
-                                                        src="<?php echo wp_get_attachment_image_src(get_field('contact_section_icon_2'),'full')[0];?>"
-                                                        alt="" />
-                                                </div>
-                                                <div class="text-box">
-                                                    <?php echo get_field('contact_section_icon_content_2');?>
-
-                                                </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <div class="contact-info-inner">
+                                            <div class="image-holder">
+                                                <img class="img-responsive"
+                                                    src="<?php echo wp_get_attachment_image_src(get_field('contact_section_icon_3'),'full')[0];?>"
+                                                    alt="" />
                                             </div>
-                                        </div>
-                                        <div class="col-md-4 col-sm-4 col-xs-4">
-                                            <div class="contact-info-inner">
-                                                <div class="image-holder">
-                                                    <img class="img-responsive"
-                                                        src="<?php echo wp_get_attachment_image_src(get_field('contact_section_icon_3'),'full')[0];?>"
-                                                        alt="" />
-                                                </div>
-                                                <div class="text-box">
-                                                    <?php echo get_field('contact_section_icon_content_3');?>
-                                                </div>
+                                            <div class="text-box">
+                                                <?php echo get_field('contact_section_icon_content_3');?>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="contact-form"> -->
-                            <!-- <div class="contact-form-inner"> -->
+                        </div>
+                        <!-- <div class="contact-form"> -->
+                        <!-- <div class="contact-form-inner"> -->
 
 
-                            <!-- <h3>SEND US A MESSAGE</h3>
+                        <!-- <h3>SEND US A MESSAGE</h3>
                                     <div class="theForm">
                                         <div class="row">
                                             <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
@@ -1944,7 +1939,7 @@ if( have_rows('gallery_section_images') )
 
 
 
-                            <?php
+                        <?php
 
 
 echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Contact form"]') : do_shortcode('[contact-form-7 id="273" title="Contact form"]') ;
@@ -1953,15 +1948,15 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
 
                                     ?>
 
-                            <!-- </div> -->
-                            <!-- </div> -->
-                        </div>
+                        <!-- </div> -->
+                        <!-- </div> -->
                     </div>
                 </div>
-                <div class="process"><span><img src='<?php echo get_site_url();?>/SJ/img/loading.gif'><BR><BR>Data
-                        Processing</img></span></div>
-            </section>
-            <!-- <section id="footer-section" class="footer-section post">
+            </div>
+            <div class="process"><span><img src='<?php echo get_site_url();?>/SJ/img/loading.gif'><BR><BR>Data
+                    Processing</img></span></div>
+        </section>
+        <!-- <section id="footer-section" class="footer-section post">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -1973,59 +1968,59 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
                     </div>
                 </div>
             </section> -->
-        </div>
+    </div>
 
 
-        <!-- Large modal -->
-        <div class="up-down">
-            <ul>
-                <li><a href="#"><img src="<?php echo get_site_url();?>/SJ/img/btn-txt_en.png" alt="" /></a></li>
-                <li><a id="up" href="#"><img src="<?php echo get_site_url();?>/SJ/img/btn-up.png" alt="" /></a></li>
-                <li><a id="down" href="#"><img src="<?php echo get_site_url();?>/SJ/img/btn-down.png" alt="" /></a></li>
-                <li><a class="scrol" href="#header"><img src="<?php echo get_site_url();?>/SJ/img/btn-top.png"
-                            alt="" /></a></li>
-            </ul>
-        </div>
-        <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    <!-- Large modal -->
+    <div class="up-down">
+        <ul>
+            <li><a href="#"><img src="<?php echo get_site_url();?>/SJ/img/btn-txt_en.png" alt="" /></a></li>
+            <li><a id="up" href="#"><img src="<?php echo get_site_url();?>/SJ/img/btn-up.png" alt="" /></a></li>
+            <li><a id="down" href="#"><img src="<?php echo get_site_url();?>/SJ/img/btn-down.png" alt="" /></a></li>
+            <li><a class="scrol" href="#header"><img src="<?php echo get_site_url();?>/SJ/img/btn-top.png" alt="" /></a>
+            </li>
+        </ul>
+    </div>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-44606789-1', 'auto');
-        ga('send', 'pageview');
-        </script>
-        <script type="text/javascript">
-        function emailClicked() {
-            ga('send', {
-                hitType: 'event',
-                eventCategory: 'Email',
-                eventAction: 'Click',
-            });
-            window.location.href = "mailto:info@furrenzpetsitters.com";
-        }
-        </script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.js"></script>
-        <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/lightgallery.js"></script>
-        <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.nicescroll.js"></script>
-        <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.mousewheel.min.js"></script>
-        <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/custom.js"></script>
+    ga('create', 'UA-44606789-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script type="text/javascript">
+    function emailClicked() {
+        ga('send', {
+            hitType: 'event',
+            eventCategory: 'Email',
+            eventAction: 'Click',
+        });
+        window.location.href = "mailto:info@furrenzpetsitters.com";
+    }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/lightgallery.js"></script>
+    <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/custom.js"></script>
 
-        <?php
+    <?php
 
 get_footer();
 ?>
-        <!-- </body> -->
+    <!-- </body> -->
 
 
 
-        <!-- </html> -->
+    <!-- </html> -->
