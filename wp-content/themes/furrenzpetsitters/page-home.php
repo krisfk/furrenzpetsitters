@@ -2072,6 +2072,10 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
 
+    <script type="text/javascript">
+    alert(87);
+    </script>
+
 
     <?php
 
