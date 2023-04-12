@@ -2075,16 +2075,16 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
     <script type="text/javascript">
     setTimeout(() => {
 
-        var today = new Date();
-        var dd = String(today.getDate()).padStart(2, '0');
-        var mm = String(today.getMonth() + 1).padStart(2, '0');
-        var yyyy = today.getFullYear();
+        // var today = new Date();
+        // var dd = String(today.getDate()).padStart(2, '0');
+        // var mm = String(today.getMonth() + 1).padStart(2, '0');
+        // var yyyy = today.getFullYear();
 
-        today = yyyy + '-' + mm + '-' + dd;
+        // today = yyyy + '-' + mm + '-' + dd;
         // $('#date_picker').attr('min', today);
 
         $('.start-date-input,.end-date-input').datepicker();
-        $('.start-date-input,.end-date-input').attr('min', today);
+        // $('.start-date-input,.end-date-input').attr('min', today);
     }, 2000);
     // var $ = JQuery;
     // $(function() {
