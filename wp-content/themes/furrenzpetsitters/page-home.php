@@ -2061,7 +2061,7 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
     }
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.js"></script>
+    <!-- <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.js"></script> -->
     <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/lightgallery.js"></script>
     <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.nicescroll.js"></script>
@@ -2074,10 +2074,11 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
 
     <script type="text/javascript">
     $(function() {
-        alert(99);
-
-
+        alert(33);
     })
+    // setTimeout(() => {
+    // $('.start-date-input').datepicker();
+    // }, 5000);
     </script>
 
 
