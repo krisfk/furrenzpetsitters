@@ -2049,7 +2049,7 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
     ga('send', 'pageview');
     </script>
     <script type="text/javascript">
-    alert(7);
+    // alert(7);
 
     function emailClicked() {
         ga('send', {
