@@ -161,6 +161,16 @@ input[type='submit'] {
   top: 78.5% !important;
 }
 
+.up-down {
+  right: 15px;
+  position: fixed;
+  top: 74%;
+  z-index: 10;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
 @media (min-width: 768px) {
   .navbar-nav {
     float: none !important;
