@@ -34,6 +34,10 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_site_url();?>/SJ/img/favicon.ico" />
     <link rel="canonical" href="http://www.furrenzpetsitters.com/" />
 
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+
+
 </head>
 
 <!-- <div id="page" class="site">
@@ -2061,6 +2065,10 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
     <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.nicescroll.js"></script>
     <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.mousewheel.min.js"></script>
     <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/custom.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
 
     <?php
 
