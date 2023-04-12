@@ -2073,7 +2073,11 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
 
 
     <script type="text/javascript">
-    alert(87);
+    $(function() {
+        alert(99);
+
+
+    })
     </script>
 
 
