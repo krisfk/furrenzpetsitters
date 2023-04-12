@@ -2074,8 +2074,8 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
 
     <script type="text/javascript">
     setTimeout(() => {
-        $('.start-date-input').datepicker();
-    }, 5000);
+        $('.start-date-input,.end-date-input').datepicker();
+    }, 2000);
     // var $ = JQuery;
     // $(function() {
     // alert(33);
