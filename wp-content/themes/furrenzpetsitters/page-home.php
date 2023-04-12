@@ -2057,6 +2057,12 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
         });
         window.location.href = "mailto:info@furrenzpetsitters.com";
     }
+
+    $(function() {
+
+        $('.start-date-input').datepicker();
+        $('.end-date-input').datepicker();
+    })
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="<?php echo get_site_url();?>/SJ/js/jquery.js"></script>
@@ -2068,6 +2074,7 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
 
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
 
 
     <?php
