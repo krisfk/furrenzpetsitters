@@ -226,6 +226,11 @@ input[type='submit'] {
   padding: 40px 30px;
 }
 
+.desktop-submenu-ul {
+  position: relative;
+  z-index: 100;
+}
+
 @media (min-width: 768px) {
   .navbar-nav {
     float: none !important;
