@@ -227,8 +227,10 @@ input[type='submit'] {
 }
 
 .desktop-submenu-ul {
-  position: relative;
-  z-index: 100;
+  position: absolute;
+  top: 44px;
+  background: #fff;
+  padding: 0.5rem 1rem;
 }
 
 @media (min-width: 768px) {
