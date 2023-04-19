@@ -372,7 +372,7 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                         <div class="navbar-collapse collapse">
                                             <ul class="nav navbar-nav">
                                                 <?php
-                       echo get_post_field('post_content', $curr_lang_flag =='en' ? 318:318);
+                       echo get_post_field('post_content', $curr_lang_flag =='en' ? 318:322);
 
                                                 ?>
                                                 <li>
