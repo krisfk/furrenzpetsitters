@@ -180,6 +180,16 @@ input[type='submit'] {
   margin-bottom: 50px !important;
 }
 
+.mid-head .so-lang {
+  left: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+  right: 0;
+  top: 380px !important;
+}
+
 @media (min-width: 768px) {
   .navbar-nav {
     float: none !important;
