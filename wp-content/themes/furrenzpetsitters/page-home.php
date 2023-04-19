@@ -694,7 +694,7 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                 <div class="row">
                     <div class="col-md-12">
                         <div class="gallry-sec-inner">
-                            <h2>Gallery</h2>
+                            <h2><?php echo get_field('gallery_section_title');?></h2>
                             <div class="media-vedio">
                                 <div class="media-vedio-inner media-gallery-inner">
                                     <div class="demo-gallery">
