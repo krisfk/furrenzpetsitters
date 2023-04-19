@@ -371,34 +371,10 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                         </div>
                                         <div class="navbar-collapse collapse">
                                             <ul class="nav navbar-nav">
-                                                <li><a class="scrol" href="#about-section" data-toggle="collapse"
-                                                        data-target=".navbar-collapse">ABOUT US</a>
-                                                    <font class="slipe">/</font>
-                                                </li>
-                                                <li><a class="scrol" href="#media-section" data-toggle="collapse"
-                                                        data-target=".navbar-collapse">MEDIA & GALLERY</a>
-                                                    <font class="slipe">/</font>
-                                                </li>
-                                                <li><a class="scrol" href="#cat-sitting-section" data-toggle="collapse"
-                                                        data-target=".navbar-collapse">SERVICES &amp; RATES</a>
-                                                    <font class="slipe">/</font>
-                                                </li>
-                                                <li><a class="scrol" href="#faq-section" data-toggle="collapse"
-                                                        data-target=".navbar-collapse">FAQ</a>
-                                                    <font class="slipe">/</font>
-                                                </li>
-                                                <li><a class="scrol" href="#partnership-section" data-toggle="collapse"
-                                                        data-target=".navbar-collapse">PARTNERSHIP & PET
-                                                        RESOURCES</a>
-                                                    <font class="slipe">/</font>
-                                                </li>
-                                                <li><a class="scrol" href="#testimonial-section" data-toggle="collapse"
-                                                        data-target=".navbar-collapse">TESTIMONIALS</a>
-                                                    <font class="slipe">/</font>
-                                                </li>
-                                                <li><a class="scrol" href="#contact-section" data-toggle="collapse"
-                                                        data-target=".navbar-collapse">CONTACT</a>
-                                                </li>
+                                                <?php
+                       echo get_post_field('post_content', $curr_lang_flag =='en' ? 318:318);
+
+                                                ?>
                                                 <li>
                                                     <ul class="list-inline mbl-sc">
                                                         <li><a class="social"
