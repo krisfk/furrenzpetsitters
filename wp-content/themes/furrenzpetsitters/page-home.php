@@ -2115,7 +2115,7 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
 
         // today = yyyy + '-' + mm + '-' + dd;
         // $('#date_picker').attr('min', today);
-        alert('test');
+        // alert('test');
         $('.start-date-input,.end-date-input').datepicker();
         // $('.start-date-input,.end-date-input').attr('min', today);
     }, 2000);
