@@ -195,6 +195,12 @@ input[type='submit'] {
   margin-top: 20px !important;
 }
 
+.last-head {
+  text-align: center;
+  margin-top: 148px !important;
+  margin-bottom: 58px !important;
+}
+
 @media (min-width: 768px) {
   .navbar-nav {
     float: none !important;
