@@ -201,6 +201,10 @@ input[type='submit'] {
   margin-bottom: 58px !important;
 }
 
+.badge-award {
+  height: 20px;
+}
+
 @media (min-width: 768px) {
   .navbar-nav {
     float: none !important;

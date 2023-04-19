@@ -99,7 +99,7 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                                 {
                                                     the_row();
                                                     ?>
-                                        <img class="img-responsive"
+                                        <img class="img-responsive badge-award"
                                             src='<?php echo wp_get_attachment_image_src(get_sub_field('badge_logos'),'full')[0];?>'
                                             alt="" />
 
