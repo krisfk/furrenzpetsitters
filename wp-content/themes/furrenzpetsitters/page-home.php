@@ -500,9 +500,11 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                 <div class="row">
                     <div class="col-md-12">
 
-                        <div class="about-team"
-                            style="padding:0;background-color:transparent;color: #fff; font-family: '232mksdroundmedium',sans-serif; font-size: 69px; position: relative; text-transform: uppercase; padding-bottom: 48px;">
-                            fdsf</div>
+                        <div class="about-team" style="padding:0;background-color:transparent;">
+                            <div class="hedding">
+                                <h2>Our Team</h2>
+                            </div>
+                        </div>
                         <div class="about-team">
                             <div class="about-team-inner">
 
