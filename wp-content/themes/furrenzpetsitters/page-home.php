@@ -68,6 +68,8 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                     <a href="#"><img class="img-responsive"
                                             src="<?php echo wp_get_attachment_image_src(get_field('main_logo'),'full')[0];?>"
                                             alt="" /></a>
+
+
                                 </div>
                                 <div class="text-box">
 
@@ -83,6 +85,31 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                                     <img class="img-responsive"
                                         src="<?php echo wp_get_attachment_image_src(get_field('first_section_img'),'full')[0];?>"
                                         alt="" />
+
+
+                                    <div>
+                                        <?php
+                                        
+
+                                            
+                                            if( have_rows('first_section_badge_logos') )
+                                            {
+                                                // Loop through rows.
+                                                while( have_rows('first_section_badge_logos') ) 
+                                                {
+                                                    the_row();
+                                                    ?>
+                                        <img class="img-responsive"
+                                            src='<?php echo wp_get_attachment_image_src(get_sub_field('badge_logos'),'full')[0];?>'
+                                            alt="" />
+
+                                        <?php
+                                                }
+                                            }
+                                                    ?>
+
+
+                                    </div>
                                     <div class="so-lang">
 
 
