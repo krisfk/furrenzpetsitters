@@ -242,7 +242,7 @@ input[type='submit'] {
 }
 
 .mobile-submenu-li {
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 1rem !important;
 }
 
 @media (min-width: 768px) {
