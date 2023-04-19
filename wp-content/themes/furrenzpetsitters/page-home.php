@@ -2087,6 +2087,52 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
         // $('#date_picker').attr('min', today);
         // alert('test');
         $('.start-date-input,.end-date-input').datepicker();
+
+
+        $('.service-rate-a').mouseenter(function() {
+
+            if ($(window).width() > 991) {
+                $('.desktop-submenu-ul').clearQueue().fadeOut(0);
+
+
+                // if ($(this).hasClass('parent')) {
+                // $(this).next('.mobile-menu-submenu').slideDown(200);
+                $('.desktop-submenu-ul').slideDown(200);
+                // }
+            }
+
+
+
+        })
+
+        $('.mobile-menu-submenu').mouseleave(function() {
+
+            if ($(window).width() > 1200) {
+
+                $('.mobile-menu-submenu').fadeOut(0);
+            }
+        })
+
+
+        $('.mobile-menu-submenu').mouseenter(function() {
+
+            $(this).clearQueue().fadeIn(0);
+
+        })
+
+
+        $('.level-1').mouseleave(function() {
+
+            if ($(window).width() > 1200) {
+
+
+                $('.mobile-menu-submenu').delay(500).fadeOut(0)
+
+            }
+        })
+
+
+
         // $('.start-date-input,.end-date-input').attr('min', today);
     }, 2000);
     // var $ = JQuery;
