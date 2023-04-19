@@ -187,7 +187,7 @@ input[type='submit'] {
   margin-right: 0;
   position: absolute;
   right: 0;
-  top: 380px !important;
+  top: 300px !important;
 }
 
 .mid-head .so-lang a {
@@ -202,7 +202,8 @@ input[type='submit'] {
 }
 
 .badge-award {
-  height: 20px;
+  height: 100px !important;
+  margin: 2rem 1rem;
 }
 
 @media (min-width: 768px) {
