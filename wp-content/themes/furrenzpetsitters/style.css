@@ -206,6 +206,14 @@ input[type='submit'] {
   margin: 2rem 1rem;
 }
 
+.about-team-title {
+  /* background-color: #fff; */
+  width: 920px;
+  /* margin: 10px auto 0; */
+  /* border-radius: 20px; */
+  padding: 40px 30px;
+}
+
 @media (min-width: 768px) {
   .navbar-nav {
     float: none !important;
