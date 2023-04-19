@@ -175,6 +175,11 @@ input[type='submit'] {
   padding-top: 48px !important;
 }
 
+.top-head {
+  text-align: center;
+  margin-bottom: 50px !important;
+}
+
 @media (min-width: 768px) {
   .navbar-nav {
     float: none !important;
