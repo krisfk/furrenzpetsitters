@@ -502,7 +502,7 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
 
                         <div class="about-team" style="padding:0;background-color:transparent;">
                             <div class="hedding">
-                                <h2>Our Team</h2>
+                                <h2><?php echo get_field('our_team_title');?></h2>
                             </div>
                         </div>
                         <div class="about-team">
