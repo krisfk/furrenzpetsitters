@@ -2105,28 +2105,28 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
 
         })
 
-        $('.mobile-menu-submenu').mouseleave(function() {
+        $('.desktop-submenu-ul').mouseleave(function() {
 
-            if ($(window).width() > 1200) {
+            if ($(window).width() > 991) {
 
-                $('.mobile-menu-submenu').fadeOut(0);
+                $('.desktop-submenu-ul').fadeOut(0);
             }
         })
 
 
-        $('.mobile-menu-submenu').mouseenter(function() {
+        $('.desktop-submenu-ul').mouseenter(function() {
 
             $(this).clearQueue().fadeIn(0);
 
         })
 
 
-        $('.level-1').mouseleave(function() {
+        $('.service-rate-a').mouseleave(function() {
 
-            if ($(window).width() > 1200) {
+            if ($(window).width() > 991) {
 
 
-                $('.mobile-menu-submenu').delay(500).fadeOut(0)
+                $('.desktop-submenu-ul').delay(500).fadeOut(0)
 
             }
         })
