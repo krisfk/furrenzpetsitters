@@ -172,20 +172,7 @@ input[type='submit'] {
 }
 
 .top-head .text-box {
-  padding-top: 45px !important;
-}
-
-.top-head {
-  text-align: center;
-  margin-bottom: 40px !important;
-}
-
-.top-head .text-box p {
-  color: #bc8eb3;
-  font-family: 'Imprima', sans-serif;
-  font-size: 34px;
-  font-weight: normal;
-  margin-top: 15px !important;
+  padding-top: 48px !important;
 }
 
 @media (min-width: 768px) {
