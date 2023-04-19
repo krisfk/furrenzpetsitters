@@ -2089,6 +2089,14 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
         $('.start-date-input,.end-date-input').datepicker();
 
 
+
+
+
+        // $('.start-date-input,.end-date-input').attr('min', today);
+    }, 2000);
+    // var $ = JQuery;
+    $(function() {
+
         $('.service-rate-a').mouseenter(function() {
 
             if ($(window).width() > 991) {
@@ -2130,14 +2138,6 @@ echo $curr_lang_flag=='en' ? do_shortcode('[contact-form-7 id="252" title="Conta
 
             }
         })
-
-
-
-        // $('.start-date-input,.end-date-input').attr('min', today);
-    }, 2000);
-    // var $ = JQuery;
-    $(function() {
-        alert(33);
     })
     // setTimeout(() => {
     // $('.start-date-input').datepicker();
