@@ -230,10 +230,15 @@ input[type='submit'] {
   position: absolute;
   top: 44px;
   display: none;
+  left: 0;
   background: #fff;
   padding: 0.5rem 1rem;
   z-index: 100;
   width: max-content;
+}
+
+.desktop-submenu-ul li {
+  margin: 0.5rem 0 0.5rem 0;
 }
 
 @media (min-width: 768px) {
