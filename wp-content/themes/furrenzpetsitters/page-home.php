@@ -500,7 +500,7 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                 <div class="row">
                     <div class="col-md-12">
 
-                        <div class="about-team-title"></div>
+                        <div class="about-team-title">fdsf</div>
                         <div class="about-team">
                             <div class="about-team-inner">
 
