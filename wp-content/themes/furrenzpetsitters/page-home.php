@@ -416,7 +416,7 @@ $next_page_txt = $curr_lang_flag =='en' ? 'Next':'下頁';
                         <div class="image-holder">
                             <img src="<?php echo wp_get_attachment_image_src(get_field('about_us_section_img_1_a'),'full')[0];?>"
                                 alt="" />
-                            <img src="<?php echo wp_get_attachment_image_src(get_field('about_us_section_img_2_a'),'full')[0];?>"
+                            <img src="<?php echo wp_get_attachment_image_src(get_field('about_us_section_img_1_b'),'full')[0];?>"
                                 alt="" />
                         </div>
                     </div>
